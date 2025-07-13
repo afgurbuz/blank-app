@@ -1,0 +1,49 @@
+{
+  "auth": {
+    "type": "bearer",
+    "bearer": "[object Object]"
+  },
+  "info": {
+    "name": "ProjectCMS API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "version": "1.0.0",
+    "description": "Complete API collection for ProjectCMS - Translation Management System"
+  },
+  "item": "[object Object],[object Object],[object Object],[object Object]",
+  "event": "[object Object],[object Object]",
+  "deneme": "",
+  "signUp": {
+    "main": {
+      "error": {
+        "phone": "",
+        "campaign": "",
+        "password": {
+          "empty": ""
+        },
+        "reference": "",
+        "passwordAgain": {
+          "empty": "",
+          "wrong": ""
+        }
+      },
+      "input": {
+        "email": "",
+        "phone": "",
+        "password": "",
+        "reference": "",
+        "passwordAgain": ""
+      },
+      "legal": {
+        "content1": "",
+        "content2": "",
+        "content3": "",
+        "content4": "",
+        "content5": ""
+      },
+      "title": "",
+      "description": ""
+    }
+  },
+  "deneme2": "",
+  "variable": "[object Object],[object Object],[object Object],[object Object]"
+}
