@@ -1,4 +1,6273 @@
 {
-  "Success": "deneme",
-  "Success_evet": ""
+  "qr": {
+    "scan": {
+      "code": "",
+      "iban": "",
+      "walletCode": "",
+      "recipientAddress": ""
+    },
+    "show": "",
+    "reader": {
+      "NotFoundError": {
+        "title": "",
+        "description": ""
+      },
+      "NotAllowedError": {
+        "title": "",
+        "description": ""
+      },
+      "NotReadableError": {
+        "title": "",
+        "description": ""
+      },
+      "NotSupportedError": {
+        "title": "",
+        "description": ""
+      },
+      "InsecureContextError": {
+        "title": "",
+        "description": ""
+      },
+      "OverconstrainedError": {
+        "title": "",
+        "description": ""
+      },
+      "StreamApiNotSupportedError": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "paribuKey": ""
+  },
+  "faq": {
+    "authenticated": {
+      "limits": "",
+      "security": "",
+      "easyTrade": "",
+      "comissions": "",
+      "orderMatching": "",
+      "conditionalOrder": ""
+    },
+    "unauthenticated": {
+      "howTo": "",
+      "listing": "",
+      "pricing": "",
+      "cryptoTerms": "",
+      "marketOrder": "",
+      "conditionalOrder": ""
+    }
+  },
+  "kyc": {
+    "nfc": {
+      "title": "",
+      "button": "",
+      "permission": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "description": "",
+      "title_ready": "",
+      "title_success": "",
+      "continue_with_ocr": "",
+      "description_ready_ios": "",
+      "description_ready_android": ""
+    },
+    "ocr": {
+      "title": "",
+      "button": "",
+      "permission": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "description": ""
+    },
+    "header": {
+      "link": "",
+      "notice": "",
+      "forbidden": ""
+    },
+    "result": {
+      "banned_title": "",
+      "welcome_title": "",
+      "rejected_title": "",
+      "welcome_verified": "",
+      "banned_description": "",
+      "welcome_description": "",
+      "rejected_description": "",
+      "under_inspection_title": "",
+      "welcome_gift_description": "",
+      "under_inspection_description": ""
+    },
+    "address": {
+      "file": {
+        "title": "",
+        "file_error": "",
+        "size_error": "",
+        "description": "",
+        "file_format_error": ""
+      },
+      "form": {
+        "city": "",
+        "title": "",
+        "street": "",
+        "district": "",
+        "neighborhood": "",
+        "building_name": "",
+        "building_number": "",
+        "apartment_number": ""
+      },
+      "info": {
+        "steps": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": ""
+        },
+        "title": "",
+        "trigger_text": ""
+      },
+      "title": "",
+      "button": "",
+      "option_file": "",
+      "option_form": "",
+      "description_1": "",
+      "description_3": "",
+      "verify_errors": {
+        "barcode_read_error": {
+          "title": "",
+          "description": ""
+        },
+        "address_mismatch_error": {
+          "title": "",
+          "description": ""
+        },
+        "service_unavailable_error": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "description_2_bold": ""
+    },
+    "support": {
+      "mail": "",
+      "phone": "",
+      "title": "",
+      "text_1": "",
+      "text_2": "",
+      "support_button": ""
+    },
+    "liveness": {
+      "title": "",
+      "button": "",
+      "permission": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "description": "",
+      "description_new": ""
+    },
+    "overview": {
+      "steps": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "title": "",
+      "button": "",
+      "description": ""
+    },
+    "compliance": {
+      "personal": {
+        "title": "",
+        "button": "",
+        "dropdown": {
+          "professions": "",
+          "income_ranges": "",
+          "income_sources": ""
+        },
+        "description": ""
+      },
+      "investment": {
+        "title": "",
+        "button": "",
+        "dropdown": {
+          "transaction_volumes": "",
+          "transaction_purposes": "",
+          "transaction_frequencies": ""
+        },
+        "description": ""
+      }
+    },
+    "kyc_errors": {
+      "NFC_READ_ERROR": {
+        "title": "",
+        "description": ""
+      },
+      "SESSION_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "NFC_STORE_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "FACE_STORE_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "ID_DOC_HOLO_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "FACE_GESTURE_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "ID_DOC_READ_TIMEOUT": {
+        "title": "",
+        "description": ""
+      },
+      "ID_DOC_STORE_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "VERIFICATION_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "ID_TYPE_VERIFY_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "FACE_VERIFICATION_FAILED": {
+        "title": "",
+        "description": ""
+      },
+      "READ_BARCODE_CONNECTION_FAILURE": {
+        "title": "",
+        "description": ""
+      },
+      "VERIFY_BARCODE_CONNECTION_FAILURE": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "progress_bar": {
+      "steps": {
+        "claim_gift": "",
+        "deposit_tl": "",
+        "create_account": "",
+        "verify_account": "",
+        "verify_address": "",
+        "courier_process": "",
+        "document_investigation": ""
+      },
+      "titles": {
+        "banned": "",
+        "verified": "",
+        "unverified": "",
+        "deposited_tl": "",
+        "verified_campaign": "",
+        "under_investigation": {
+          "local": "",
+          "foreigner": ""
+        },
+        "unverified_campaign": "",
+        "new_adress_document_required": ""
+      },
+      "info_bs": {
+        "under_investigation": {
+          "title": "",
+          "description": ""
+        }
+      }
+    },
+    "update_app_bs": {
+      "title": "",
+      "desctiption": "",
+      "button_update": ""
+    },
+    "welcome_bonus": {
+      "description": ""
+    },
+    "close_confirm_bs": {
+      "title": "",
+      "button_exit": "",
+      "description": "",
+      "button_continue": ""
+    },
+    "account_approving": {
+      "title": "",
+      "bs_title": "",
+      "description": "",
+      "bs_description": ""
+    }
+  },
+  "mfa": {
+    "sms": "",
+    "g2fa": "",
+    "button": "",
+    "otp-error": "",
+    "otp-label": "",
+    "frozen-account": "",
+    "description-sms": "",
+    "description-g2fa": "",
+    "description-email": "",
+    "frozen-account-help": "",
+    "frozen-account-button": "",
+    "frozen-account-description": ""
+  },
+  "otp": {
+    "send": "",
+    "paste": "",
+    "resend": "",
+    "confirm": {
+      "email": "",
+      "phone": "",
+      "newEmail": "",
+      "emailCode": "",
+      "phoneCode": "",
+      "googleAuth": ""
+    },
+    "counter": "",
+    "disable": "",
+    "remaining": "",
+    "confirmCode": "",
+    "description": {
+      "authCode": "",
+      "emailConfirm": "",
+      "phoneConfirm": ""
+    },
+    "sendCodeAgain": "",
+    "otp_title_email": "",
+    "otp_title_phone": ""
+  },
+  "auth": {
+    "2fa": {
+      "desc": "",
+      "error": "",
+      "title": ""
+    },
+    "mfa": {
+      "code": "",
+      "info": "",
+      "mean": "",
+      "check": "",
+      "setup": "",
+      "enable": "",
+      "enabled": "",
+      "setupIt": "",
+      "enterKey": "",
+      "completed": "",
+      "paribuKey": "",
+      "authenticator": "",
+      "enableByPassword": "",
+      "disableByPassword": ""
+    },
+    "code": "",
+    "mail": {
+      "desc": ""
+    },
+    "error": {
+      "code": ""
+    },
+    "phone": {
+      "desc": "",
+      "time": "",
+      "error": "",
+      "title": ""
+    },
+    "native": "",
+    "signIn": "",
+    "signUp": "",
+    "foreign": "",
+    "idLabel": "",
+    "passkey": {
+      "info": {
+        "desc": "",
+        "title": "",
+        "descWithBold": ""
+      },
+      "enter": "",
+      "error": "",
+      "title": "",
+      "create": {
+        "error_same_credential": ""
+      },
+      "success": {
+        "desc": "",
+        "title": ""
+      },
+      "content1": {
+        "desc": "",
+        "title": ""
+      },
+      "content2": {
+        "desc": "",
+        "title": ""
+      },
+      "content3": {
+        "desc": "",
+        "title": ""
+      },
+      "withdraw": {
+        "step": "",
+        "enter": "",
+        "error": "",
+        "differentConfirm": ""
+      }
+    },
+    "reSignIn": {
+      "title": "",
+      "description": ""
+    },
+    "trySendOtp": "",
+    "wantToQuit": "",
+    "description": {
+      "seo": "",
+      "noEmail": "",
+      "priority": "",
+      "security": "",
+      "infoPrivacy": "",
+      "signInParibu": "",
+      "createAccount": "",
+      "accountCreated": "",
+      "emailUsageGoal": "",
+      "getSupportCenter": "",
+      "authForInvestment": "",
+      "checkDataUsageWay": "",
+      "identityConfirmed": "",
+      "signInParibuAccount": "",
+      "setupSecurityFeatures": "",
+      "turkeyIdentityConfirm": "",
+      "sureGoogleAuthParibuKey": "",
+      "setupSecurityFeaturesDone": ""
+    },
+    "nationality": "",
+    "signUpTabTr": "",
+    "campaignCode": "",
+    "meshTransfer": "",
+    "otherCitizen": "",
+    "signInParibu": "",
+    "verification": "",
+    "createAccount": "",
+    "deletedByUser": "",
+    "turkeyCitizen": "",
+    "updateIdentity": "",
+    "confirmIdentity": "",
+    "signUpTabGlobal": "",
+    "suspendedByUser": "",
+    "exitRegistration": "",
+    "chooseCountryCode": "",
+    "createNewPassword": "",
+    "globalAcceptTerms": "",
+    "selectNationality": "",
+    "signUpDescription": "",
+    "suspendedByParibu": "",
+    "verifyYourContact": "",
+    "actionSignInParibu": "",
+    "actionCreateAccount": "",
+    "continueRegistration": "",
+    "otpEmailVerification": "",
+    "otpPhoneVerification": "",
+    "pleaseSelectIdentity": "",
+    "pleaseUpdateIdentity": "",
+    "pleaseConfirmIdentity": "",
+    "sendNewAccountRequest": "",
+    "verifyYourCredentials": ""
+  },
+  "home": {
+    "app": {
+      "title": "",
+      "subtitle": "",
+      "subtitle2": ""
+    },
+    "box": {
+      "title": "",
+      "details": "",
+      "subtitle": ""
+    },
+    "hero": {
+      "stats": {
+        "volume": "",
+        "userCount": "",
+        "volumeTitle": "",
+        "currencyTitle": "",
+        "userCountTitle": ""
+      },
+      "title": "",
+      "subtitle": "",
+      "downloadApp": "",
+      "createAccount": ""
+    },
+    "info": {
+      "preAuth": {
+        "desc": "",
+        "title": ""
+      }
+    },
+    "news": {
+      "title": "",
+      "subtitle": ""
+    },
+    "title": "",
+    "tools": {
+      "items": {
+        "item1": {
+          "desc": "",
+          "title": ""
+        },
+        "item2": {
+          "desc": "",
+          "title": ""
+        },
+        "item3": {
+          "desc": "",
+          "title": ""
+        },
+        "item4": {
+          "desc": "",
+          "title": ""
+        },
+        "item5": {
+          "desc": "",
+          "title": ""
+        }
+      },
+      "title": ""
+    },
+    "header": {
+      "preAuth": {
+        "title": "",
+        "label1": "",
+        "label2": "",
+        "label3": "",
+        "needInfo": {
+          "0days": "",
+          "15days": "",
+          "30days": ""
+        },
+        "title_gift": ""
+      },
+      "preLogin": {
+        "desc": "",
+        "title": ""
+      },
+      "preAuth_TL": {
+        "title": ""
+      },
+      "preAuth_gift": {
+        "title": ""
+      },
+      "preAuth_deposit": {
+        "title": ""
+      }
+    },
+    "notice": {
+      "referral": {
+        "desc": "",
+        "title": ""
+      },
+      "promotions": {
+        "desc": "",
+        "title": ""
+      },
+      "reward_bouquet": {
+        "desc": "",
+        "title": ""
+      }
+    },
+    "wallet": {
+      "title": "",
+      "trade": {
+        "title": "",
+        "heading": "",
+        "description": ""
+      },
+      "subtitle": "",
+      "profitLoss": {
+        "title": "",
+        "heading": "",
+        "description": ""
+      },
+      "financialHistory": {
+        "title": "",
+        "heading": "",
+        "description": ""
+      }
+    },
+    "markets": {
+      "proUi": {
+        "title": "",
+        "heading": "",
+        "description": ""
+      },
+      "title": "",
+      "alarms": {
+        "title": "",
+        "heading": "",
+        "description": ""
+      },
+      "subtitle": "",
+      "hyperEngine": {
+        "title": "",
+        "heading": "",
+        "description": ""
+      }
+    },
+    "support": {
+      "items": {
+        "hub": {
+          "desc": "",
+          "title": ""
+        },
+        "blog": {
+          "desc": "",
+          "title": ""
+        },
+        "support": {
+          "desc": "",
+          "title": ""
+        }
+      },
+      "title": "",
+      "details": "",
+      "subtitle": ""
+    },
+    "features": {
+      "item1": {
+        "value": "",
+        "subtitle": ""
+      },
+      "item2": {
+        "value": "",
+        "subtitle": ""
+      },
+      "item3": {
+        "value": "",
+        "subtitle": ""
+      }
+    },
+    "universe": {
+      "title": "",
+      "subtitle": ""
+    },
+    "easy_fast": {
+      "title": "",
+      "trade": "",
+      "manage": "",
+      "verify": "",
+      "sign_up": "",
+      "success": "",
+      "welcome": "",
+      "register": "",
+      "deposited": "",
+      "register_desc": ""
+    },
+    "coldshield": {
+      "title": "",
+      "details": "",
+      "heading": "",
+      "subtitle": ""
+    },
+    "appFeatures": {
+      "title": "",
+      "features": {
+        "feature1": {
+          "title": "",
+          "subtitle": ""
+        },
+        "feature2": {
+          "title": "",
+          "subtitle": ""
+        },
+        "feature3": {
+          "title": "",
+          "subtitle": ""
+        },
+        "feature4": {
+          "title": "",
+          "subtitle": ""
+        }
+      },
+      "subtitle": ""
+    },
+    "discoverMore": {
+      "title": "",
+      "features": {
+        "feature1": {
+          "title": "",
+          "heading": "",
+          "description": ""
+        },
+        "feature2": {
+          "title": "",
+          "heading": "",
+          "description": ""
+        },
+        "feature3": {
+          "title": "",
+          "heading": "",
+          "description": ""
+        },
+        "feature4": {
+          "title": "",
+          "heading": "",
+          "description": ""
+        },
+        "feature5": {
+          "title": "",
+          "heading": "",
+          "description": ""
+        }
+      }
+    }
+  },
+  "main": {
+    "discounts": {
+      "desc": "",
+      "title": "",
+      "button": ""
+    }
+  },
+  "mask": {
+    "date": ""
+  },
+  "rate": {
+    "popUp": {
+      "title": "",
+      "button1": "",
+      "button2": "",
+      "description": ""
+    },
+    "review": {
+      "input": "",
+      "title": "",
+      "button": {
+        "send": "",
+        "later": ""
+      },
+      "success": "",
+      "description": "",
+      "input_error": ""
+    }
+  },
+  "todo": {
+    "deposit": "",
+    "create_alarm": "",
+    "deposit_body": "",
+    "email_define": "",
+    "buy_new_token": "",
+    "create_alarm_body": "",
+    "email_define_body": "",
+    "buy_new_token_body": "",
+    "email_verification": "",
+    "enable_google_auth": "",
+    "account_verification": "",
+    "identity_verification": "",
+    "create_alarm_body_asset": "",
+    "email_verification_body": "",
+    "enable_google_auth_body": "",
+    "account_verification_body": "",
+    "create_alarm_body_favorite": "",
+    "identity_verification_body": "",
+    "create_alarm_body_suggestion": ""
+  },
+  "user": {
+    "job": "",
+    "info": "",
+    "name": "",
+    "email": "",
+    "level": "",
+    "country": "",
+    "password": "",
+    "birthDate": "",
+    "birthPlace": "",
+    "fatherName": "",
+    "motherName": "",
+    "countryCode": "",
+    "nationality": "",
+    "phoneNumber": "",
+    "identityNumber": "",
+    "newSerialNumber": "",
+    "oldSerialNumber": "",
+    "nativeIdentityNumber": "",
+    "foreignIdentityNumber": ""
+  },
+  "alarm": {
+    "all": "",
+    "list": "",
+    "asset": "",
+    "setup": "",
+    "change": "",
+    "others": "",
+    "addAlarm": "",
+    "infoText": "",
+    "alarmList": "",
+    "priceDrop": "",
+    "alarmError": "",
+    "fastAlarms": "",
+    "description": {
+      "notify": "",
+      "setAlarm": "",
+      "priceChange": "",
+      "approveCancel": "",
+      "noAlarmsForFilters": ""
+    },
+    "targetPrice": "",
+    "alarmHistory": "",
+    "byPercentage": "",
+    "selectMarket": "",
+    "approveCancel": "",
+    "byTargetPrice": "",
+    "maxLengthInfo": "",
+    "priceChangeUp": "",
+    "emptyAlarmInfo": "",
+    "fastAlarmsInfo": {
+      "1": {
+        "title": "",
+        "description": ""
+      },
+      "2": {
+        "title": "",
+        "description": ""
+      },
+      "3": {
+        "title": "",
+        "description": ""
+      },
+      "4": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "maxLengthError": "",
+    "noresultSearch": "",
+    "alarmPercentage": "",
+    "loginToSetAlarm": "",
+    "priceChangeDown": "",
+    "alarmHistoryInfo": {
+      "1": "",
+      "2": ""
+    },
+    "maxLengthWarning": "",
+    "targetDifference": "",
+    "chooseTargetPrice": "",
+    "setAlarmForMarket": "",
+    "currencyAlarmNoResult": ""
+  },
+  "alert": {
+    "on": {
+      "order_created": "",
+      "alarm_triggered": "",
+      "order_completed": "",
+      "new_crypto_asset_list": "",
+      "conditional_order_triggered": "",
+      "currency_percent_price_alert": "",
+      "fiat_currency_deposit_completed": "",
+      "fiat_currency_withdraw_completed": "",
+      "crypto_currency_deposit_completed": "",
+      "crypto_currency_withdraw_completed": ""
+    },
+    "all": "",
+    "name": "",
+    "title": {
+      "settings": "",
+      "announcements": "",
+      "orderAndAlarms": "",
+      "withdrawDeposit": ""
+    },
+    "types": {
+      "sms": "",
+      "push": "",
+      "email": ""
+    },
+    "features": "",
+    "description": {
+      "alerts": "",
+      "settings": "",
+      "bestCommissionRate": ""
+    },
+    "markAllRead": "",
+    "announcement": {
+      "list": "",
+      "options": {
+        "onNewCrypto": ""
+      },
+      "featured": "",
+      "settings": "",
+      "reviewAll": "",
+      "emptyState": "",
+      "unauthorized": ""
+    },
+    "emailAndPush": "",
+    "notification": {
+      "list": "",
+      "count": "",
+      "emptyState": "",
+      "description": {
+        "orderAndAlarms": "",
+        "withdrawDeposit": ""
+      },
+      "unauthorized": ""
+    }
+  },
+  "asset": {
+    "description": {
+      "freeze": "",
+      "freezeAmount": ""
+    },
+    "showTotalAsset": ""
+  },
+  "email": {
+    "new": "",
+    "change": "",
+    "newAgain": "",
+    "confirmNew": "",
+    "changeSaved": "",
+    "confirmAndContinue": ""
+  },
+  "order": {
+    "open": "",
+    "time": "",
+    "type": {
+      "buy": {
+        "limit": "",
+        "title": "",
+        "market": "",
+        "conditional": "",
+        "conditionalConfirm": "",
+        "conditionalDescription": {
+          "low": "",
+          "high": ""
+        }
+      },
+      "sell": {
+        "limit": "",
+        "title": "",
+        "market": "",
+        "conversion": "",
+        "conditional": "",
+        "conditionalConfirm": "",
+        "conditionalDescription": {
+          "low": "",
+          "high": ""
+        }
+      },
+      "limit": "",
+      "market": "",
+      "conditional": ""
+    },
+    "user": "",
+    "empty": "",
+    "maker": "",
+    "taker": "",
+    "amount": "",
+    "cancel": "",
+    "create": "",
+    "detail": "",
+    "filter": {
+      "type": "",
+      "endDate": "",
+      "currency": "",
+      "dateTime": "",
+      "startDate": "",
+      "changeInterval": ""
+    },
+    "manage": {
+      "alarm": "",
+      "order": "",
+      "transfer": "",
+      "allHistory": "",
+      "allOpenOrders": ""
+    },
+    "market": "",
+    "history": "",
+    "setting": "",
+    "showAll": "",
+    "canManage": "",
+    "preference": "",
+    "description": {
+      "easy": "",
+      "maker": "",
+      "price": "",
+      "taker": "",
+      "cancel": "",
+      "create": "",
+      "buyLimit": "",
+      "buyMarket": "",
+      "sellLimit": "",
+      "sellMarket": "",
+      "approveCancel": "",
+      "buyConditional": "",
+      "sellConditional": ""
+    },
+    "chooseMarket": "",
+    "approveCancel": "",
+    "marketHistory": "",
+    "conditionPrice": "",
+    "relatedMatches": "",
+    "willBeCanceled": "",
+    "openOrderDetail": "",
+    "showOrderDetail": "",
+    "conversionAssets": "",
+    "conversionDetail": "",
+    "conversionTransaction": ""
+  },
+  "sales": {
+    "faq": {
+      "item1": {
+        "answer": "",
+        "question": ""
+      },
+      "item2": {
+        "answer": "",
+        "question": ""
+      },
+      "item3": {
+        "answer": "",
+        "question": ""
+      },
+      "item4": {
+        "answer": "",
+        "question": ""
+      },
+      "item5": {
+        "answer": "",
+        "question": ""
+      },
+      "item6": {
+        "answer": "",
+        "question": ""
+      },
+      "item7": {
+        "answer": "",
+        "question": ""
+      },
+      "item8": {
+        "answer": "",
+        "question": ""
+      },
+      "item9": {
+        "answer": "",
+        "question": ""
+      },
+      "item10": {
+        "answer": "",
+        "question": ""
+      },
+      "item11": {
+        "answer": "",
+        "question": ""
+      },
+      "item12": {
+        "answer": "",
+        "question": ""
+      },
+      "item13": {
+        "answer": "",
+        "question": ""
+      }
+    },
+    "seo": {
+      "title": "",
+      "description": ""
+    },
+    "open": "",
+    "dates": "",
+    "order": {
+      "open": "",
+      "locked": ""
+    },
+    "locked": "",
+    "confirm": {
+      "list": {
+        "item1": "",
+        "item2": "",
+        "item3": "",
+        "item4": "",
+        "item5": "",
+        "item6": ""
+      },
+      "open": {
+        "list": {
+          "item1": "",
+          "item2": "",
+          "item3": "",
+          "item4": "",
+          "item5": ""
+        },
+        "title": "",
+        "description": ""
+      },
+      "order": "",
+      "title": "",
+      "locked": {
+        "list": {
+          "item1": "",
+          "item2": "",
+          "item3": "",
+          "item4": "",
+          "item5": "",
+          "item6": ""
+        },
+        "title": "",
+        "description": ""
+      },
+      "riskInfo": "",
+      "agreeTerms": "",
+      "description": "",
+      "presaleTerms": ""
+    },
+    "infoBox": {
+      "open": "",
+      "locked": ""
+    },
+    "soldOut": "",
+    "termsId": "",
+    "benefits": {
+      "item1": {
+        "title": "",
+        "description": ""
+      },
+      "item2": {
+        "title": "",
+        "description": ""
+      },
+      "item3": {
+        "title": "",
+        "description": ""
+      },
+      "item4": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "faqTitle": "",
+    "hashtag1": "",
+    "hashtag2": "",
+    "headline": "",
+    "howToOwn": "",
+    "requests": "",
+    "variants": {
+      "open": "",
+      "locked": ""
+    },
+    "tokenInfo": {
+      "network": {
+        "title": "",
+        "subtitle": ""
+      },
+      "maxSupply": {
+        "title": "",
+        "subtitle": ""
+      }
+    },
+    "goToMarket": "",
+    "openSupply": {
+      "title": "",
+      "subtitle": ""
+    },
+    "orderToken": "",
+    "requestBjk": "",
+    "riskInfoId": "",
+    "firstUnlock": {
+      "title": "",
+      "subtitle": ""
+    },
+    "fixedAmount": "",
+    "ownBjkTitle": "",
+    "presaleInfo": "",
+    "saleProcess": "",
+    "saleStarted": "",
+    "totalSupply": {
+      "title": "",
+      "subtitle": ""
+    },
+    "whatIsTitle": "",
+    "lockDuration": {
+      "title": "",
+      "subtitle": ""
+    },
+    "lockedSupply": {
+      "title": "",
+      "subtitle": ""
+    },
+    "presaleEnded": "",
+    "unlockAmount": {
+      "title": "",
+      "subtitle": ""
+    },
+    "unlockPeriod": {
+      "title": "",
+      "subtitle": ""
+    },
+    "benefitsTitle": "",
+    "besiktasToken": "",
+    "blockedAmount": "",
+    "goToBjkMarket": "",
+    "remainingTime": "",
+    "availableAsset": "",
+    "marketWillOpen": "",
+    "tokenInfoTitle": "",
+    "checkWhitepaper": "",
+    "marketActivated": "",
+    "openDescription": "",
+    "requestedAmount": "",
+    "marketActivation": "",
+    "marketWillOpenAt": "",
+    "noPresaleRequest": "",
+    "presaleStartDate": {
+      "title": "",
+      "subtitle": ""
+    },
+    "lockedDescription": "",
+    "ownBjkDescription": "",
+    "whatIsDescription": "",
+    "presaleHasFinished": "",
+    "totalPresaleAmount": "",
+    "remainingOpenAmount": "",
+    "firstTokenUnlockDate": {
+      "title": "",
+      "subtitle": ""
+    },
+    "marketActivationDate": {
+      "title": "",
+      "subtitle": ""
+    }
+  },
+  "alarms": {
+    "filter": {
+      "title": ""
+    },
+    "header": "",
+    "newAlarm": {
+      "desc": "",
+      "info": {
+        "content1": "",
+        "content2": "",
+        "content3": "",
+        "content4": ""
+      },
+      "error": {
+        "desc": "",
+        "title": ""
+      },
+      "label": {
+        "price": "",
+        "percent": "",
+        "priceTarget": "",
+        "priceDecrease": "",
+        "priceIncrease": ""
+      },
+      "title": ""
+    },
+    "fastAlarms": {
+      "title": "",
+      "amount": "",
+      "wallet": "",
+      "boxToken": "",
+      "fanToken": "",
+      "instantChange": ""
+    },
+    "onboarding": {
+      "desc": "",
+      "title": ""
+    },
+    "pastAlarms": {
+      "info": {
+        "title": "",
+        "content": ""
+      },
+      "header": "",
+      "emptyState": "",
+      "priceTarget": "",
+      "priceDecrease": "",
+      "priceIncrease": ""
+    },
+    "yourAlarms": {
+      "info": "",
+      "label": {
+        "priceTarget": ""
+      },
+      "limit": "",
+      "title": "",
+      "priceUp": "",
+      "priceDown": "",
+      "priceTarget": ""
+    },
+    "notifClosed": {
+      "desc": "",
+      "title": ""
+    }
+  },
+  "donate": {
+    "info": {
+      "address": "",
+      "loginToTransfer": ""
+    },
+    "steps": {
+      "confirmCode": "",
+      "chooseAmount": "",
+      "chooseCurrency": "",
+      "chooseOrganization": ""
+    },
+    "amount": "",
+    "donate": "",
+    "totalValue": "",
+    "enterAmount": "",
+    "organizations": "",
+    "confirmDonation": "",
+    "organizationName": "",
+    "titleCryptoDonation": "",
+    "withdrawDescription": "",
+    "organizationsDescription": ""
+  },
+  "footer": {
+    "qr": "",
+    "download": "",
+    "pizzaday": ""
+  },
+  "labels": {
+    "box": "",
+    "new": "",
+    "none_commission": ""
+  },
+  "market": {
+    "seo": {
+      "list": {
+        "title": "",
+        "description": ""
+      },
+      "detail": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "list": {
+      "name": "",
+      "change": "",
+      "lowest": "",
+      "volume": "",
+      "highest": "",
+      "lastPrice": "",
+      "volume24h": ""
+    },
+    "name": "",
+    "view": {
+      "pro": "",
+      "classic": "",
+      "settings": "",
+      "standard": ""
+    },
+    "chart": {
+      "type": {
+        "classic": "",
+        "tradingView": ""
+      },
+      "graph": {
+        "line": "",
+        "name": "",
+        "candle": ""
+      }
+    },
+    "group": {
+      "all": "",
+      "box_tl": "",
+      "crypto_tl": "",
+      "crypto_usdt": "",
+      "fantoken_chz": ""
+    },
+    "maker": "",
+    "price": "",
+    "taker": "",
+    "title": "",
+    "total": "",
+    "value": "",
+    "action": {
+      "buy": "",
+      "sell": ""
+    },
+    "amount": "",
+    "buying": "",
+    "change": "",
+    "detail": "",
+    "filter": {
+      "day": "",
+      "hour": "",
+      "sort": "",
+      "week": "",
+      "year": "",
+      "apply": "",
+      "month": "",
+      "price": "",
+      "change": "",
+      "volume": "",
+      "featured": "",
+      "favorites": "",
+      "mostTrade": "",
+      "chooseDate": "",
+      "mostChange": "",
+      "alphabetical": "",
+      "changeFilters": "",
+      "maxDatePeriod": "",
+      "chooseInterval": ""
+    },
+    "lowest": "",
+    "market": "",
+    "nameOf": "",
+    "ticker": {
+      "change": "",
+      "lowest": "",
+      "volume": "",
+      "highest": "",
+      "download": "",
+      "lastPrice": ""
+    },
+    "volume": "",
+    "highest": "",
+    "options": {
+      "pin": "",
+      "unpin": "",
+      "setAlarm": "",
+      "addFavorite": "",
+      "submitOrder": "",
+      "removeFavorite": ""
+    },
+    "selling": "",
+    "buyOrder": "",
+    "favorites": {
+      "desc": "",
+      "empty": ""
+    },
+    "sellOrder": "",
+    "tradeForm": {
+      "buyOrder": "",
+      "sellOrder": ""
+    },
+    "unitPrice": "",
+    "changeRate": "",
+    "operations": "",
+    "totalPrice": "",
+    "volumeRate": "",
+    "approxTotal": "",
+    "description": {
+      "addToFavorites": ""
+    },
+    "listingSoon": "",
+    "marketPrice": "",
+    "orderDetail": {
+      "date": "",
+      "amount": "",
+      "status": "",
+      "cancelled": "",
+      "unitPrice": "",
+      "commission": "",
+      "totalPrice": "",
+      "processType": "",
+      "matchedAmount": "",
+      "relatedMatches": ""
+    },
+    "approxAmount": "",
+    "buyOrderPrice": "",
+    "monthlyVolume": "",
+    "buyOrderAmount": "",
+    "commissionRate": "",
+    "destinationTag": "",
+    "sellOrderPrice": "",
+    "sellOrderAmount": "",
+    "appliedCommission": "",
+    "monthlyVolumeAmount": "",
+    "limitedTimeCommission": ""
+  },
+  "nickel": {
+    "later": "",
+    "start": "",
+    "access": {
+      "title": "",
+      "description": ""
+    },
+    "assets": {
+      "title": "",
+      "description": ""
+    },
+    "account": {
+      "title": "",
+      "description": ""
+    },
+    "markets": {
+      "title": "",
+      "description": ""
+    },
+    "welcome": {
+      "title": "",
+      "description": ""
+    },
+    "discover": ""
+  },
+  "paribu": {
+    "key": "",
+    "firm": "",
+    "kvkk": "",
+    "name": "",
+    "about": "",
+    "guide": "",
+    "career": "",
+    "account": "",
+    "support": {
+      "get": "",
+      "name": "",
+      "center": "",
+      "request": "",
+      "getCenter": "",
+      "description": "",
+      "createRequest": ""
+    },
+    "welcome": "",
+    "discover": "",
+    "kvkkText": "",
+    "defineKey": "",
+    "manifesto": "",
+    "membership": {
+      "info": "",
+      "corporate": ""
+    },
+    "systemCheck": "",
+    "clarification": "",
+    "openPositions": "",
+    "userAgreement": ""
+  },
+  "policy": {
+    "data": "",
+    "legal": "",
+    "cookie": "",
+    "cookieList": {
+      "type": "",
+      "cookie": "",
+      "purpose": "",
+      "expiredTime": ""
+    },
+    "description": {
+      "basedOnLaws": "",
+      "confirmedPolicy": ""
+    },
+    "cookiesPolicy": {
+      "title": "",
+      "description": "",
+      "acceptAllButton": "",
+      "manageCookiesButton": "",
+      "acceptSelectedButton": ""
+    },
+    "privacyPolicy": "",
+    "userAgreement": "",
+    "dataPrivacyLaw": "",
+    "permissionText": "",
+    "usageAgreement": "",
+    "declineOptional": "",
+    "savePreferences": "",
+    "ourCookiesPolicy": "",
+    "clarificationText": "",
+    "cookiePermissionAgreement": ""
+  },
+  "signIn": {
+    "error": {
+      "desc": "",
+      "phone": "",
+      "title": "",
+      "password": ""
+    },
+    "input": {
+      "phone": "",
+      "password": ""
+    },
+    "title": "",
+    "oldUser": {
+      "id": {
+        "error": {
+          "inline": ""
+        },
+        "title": "",
+        "blocked": {
+          "desc": "",
+          "title": ""
+        }
+      }
+    },
+    "support": {
+      "accountClosed": {
+        "title": "",
+        "content": ""
+      },
+      "accountFrozen": {
+        "title": "",
+        "content": ""
+      },
+      "accountLocked": {
+        "title": "",
+        "content1": "",
+        "content2": ""
+      },
+      "accountClosing": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "resetPassword": {
+      "desc": "",
+      "info": "",
+      "error": {
+        "emptyEmail": "",
+        "emptyPassword": "",
+        "wrongPassword": "",
+        "wrongEmailFormat": ""
+      },
+      "input": {
+        "mail": "",
+        "newpassword": "",
+        "newpasswordAgain": ""
+      },
+      "title": {
+        "reset": "",
+        "newPassword": ""
+      },
+      "success": {
+        "desc": "",
+        "title": ""
+      }
+    }
+  },
+  "signUp": {
+    "id": {
+      "desc": "",
+      "exit": {
+        "desc": "",
+        "desc2": "",
+        "title": ""
+      },
+      "error": {
+        "desc": "",
+        "title": ""
+      },
+      "input": {
+        "job": "",
+        "idNo": "",
+        "name": "",
+        "tckn": "",
+        "address": "",
+        "citizen": "",
+        "district": "",
+        "province": "",
+        "birthDate": "",
+        "birthPlace": "",
+        "fatherName": "",
+        "motherName": "",
+        "foreignIDno": "",
+        "nationality": ""
+      },
+      "title": "",
+      "select": {
+        "job": "",
+        "citizen": "",
+        "district": "",
+        "province": "",
+        "trCitizen": "",
+        "nationality": "",
+        "globalCitizen": ""
+      },
+      "toggle": {
+        "newId": ""
+      },
+      "success": {
+        "desc": "",
+        "title": "",
+        "desc_gift": "",
+        "desc_referral": "",
+        "desc_campaign1": "",
+        "desc_campaign2": ""
+      },
+      "validations": {
+        "city": {
+          "required": ""
+        },
+        "address": {
+          "requiredMax": "",
+          "requiredMin": ""
+        },
+        "birthday": {
+          "requireDay": "",
+          "requireLength": ""
+        },
+        "district": {
+          "required": ""
+        },
+        "full_name": {
+          "requireName": "",
+          "requireLength": "",
+          "requireLetters": ""
+        },
+        "profession": {
+          "required": ""
+        },
+        "birth_place": {
+          "requireMin": "",
+          "requireMatch": "",
+          "requirePlace": ""
+        },
+        "father_name": {
+          "requireMin": "",
+          "requireName": "",
+          "requireLetters": ""
+        },
+        "mother_name": {
+          "requireMin": "",
+          "requireName": "",
+          "requireLetters": ""
+        },
+        "foreign_citizen": {
+          "country": {
+            "required": ""
+          }
+        },
+        "identity_number": {
+          "requireMin": "",
+          "requireMatch": "",
+          "requireNumber": ""
+        },
+        "oldIdentityCardNumber": {
+          "required": "",
+          "requireMin": "",
+          "requireNumbers": ""
+        },
+        "foreign_identity_number": {
+          "requireMin": ""
+        },
+        "newIdentityCardSeriesNumber": {
+          "required": "",
+          "requireMax": "",
+          "requireMin": "",
+          "requireLetters": ""
+        },
+        "oldIdentityCardSeriesNumber": {
+          "required": "",
+          "requireMin": "",
+          "requireLetters": ""
+        }
+      }
+    },
+    "info": {
+      "idNo": {
+        "desc": "",
+        "title": ""
+      },
+      "oldNo": {
+        "desc": "",
+        "title": ""
+      },
+      "oldSerial": {
+        "desc": "",
+        "title": ""
+      }
+    },
+    "main": {
+      "error": {
+        "phone": "",
+        "campaign": "",
+        "password": {
+          "empty": ""
+        },
+        "reference": "",
+        "passwordAgain": {
+          "empty": "",
+          "wrong": ""
+        }
+      },
+      "input": {
+        "email": "",
+        "phone": "",
+        "password": "",
+        "reference": "",
+        "passwordAgain": ""
+      },
+      "legal": {
+        "content1": "",
+        "content2": "",
+        "content3": "",
+        "content4": "",
+        "content5": ""
+      },
+      "title": "",
+      "description": ""
+    },
+    "contact": {
+      "exit": {
+        "title": "",
+        "description": ""
+      },
+      "error": {
+        "codeWrong": "",
+        "codeExpired": ""
+      },
+      "input": {
+        "email": "",
+        "phone": ""
+      },
+      "label": {
+        "email": "",
+        "phone": ""
+      },
+      "title": ""
+    },
+    "validations": {
+      "require": {
+        "email": "",
+        "agreement": "",
+        "agreement2": "",
+        "mobileCode": "",
+        "confirmedPassword": ""
+      },
+      "required": {
+        "error": "",
+        "mobile": "",
+        "password": ""
+      }
+    }
+  },
+  "wallet": {
+    "by": "",
+    "code": "",
+    "fiat": {
+      "deposit": "",
+      "onlySelf": "",
+      "rejected": "",
+      "transfer": "",
+      "nameIsMust": "",
+      "selectAccount": "",
+      "depositAccounts": "",
+      "depositToWallet": "",
+      "onlySelfAccounts": "",
+      "worksTimeDeposit": "",
+      "transactionAccount": "",
+      "withdrawTimePeriod": "",
+      "onlySelfBankAccount": "",
+      "transferLimitByFast": ""
+    },
+    "name": "",
+    "asset": "",
+    "total": "",
+    "txnID": "",
+    "action": {
+      "search": "",
+      "deposit": "",
+      "donation": "",
+      "transfer": "",
+      "withdraw": ""
+    },
+    "amount": {
+      "total": "",
+      "blocked": {
+        "order": "",
+        "locked": "",
+        "transaction": ""
+      },
+      "available": ""
+    },
+    "detail": "",
+    "nameOf": "",
+    "balance": "",
+    "deposit": {
+      "importantInfo": "",
+      "networkDeposit": "",
+      "makeTheTransfer": "",
+      "networkShootingCost": "",
+      "personalDepositAddress": "",
+      "transferConfirmationInfo": ""
+    },
+    "filters": {
+      "sort": "",
+      "groupByType": "",
+      "sortOptions": {
+        "name": "",
+        "price": "",
+        "balance": ""
+      },
+      "viewOptions": "",
+      "showSmallAmounts": "",
+      "showSmallAmountsDescription": ""
+    },
+    "analysis": {
+      "name": "",
+      "title": ""
+    },
+    "donation": {
+      "pending_donation": ""
+    },
+    "noCrypto": "",
+    "transfer": {
+      "only": "",
+      "show": "",
+      "history": "",
+      "toBalance": "",
+      "operations": ""
+    },
+    "withdraw": {
+      "fee": "",
+      "info": "",
+      "amount": "",
+      "bankHours": "",
+      "canCancel": "",
+      "toAccount": "",
+      "toAddress": "",
+      "withdrawFee": "",
+      "noWithdrawFee": "",
+      "availableTotal": "",
+      "baseCurrencyValue": "",
+      "minWithdrawAmount": ""
+    },
+    "available": "",
+    "checkInfo": "",
+    "depositTL": "",
+    "fiatValue": "",
+    "hideAsset": "",
+    "setAmount": "",
+    "allBalance": "",
+    "walletList": {
+      "owned": "",
+      "change": "",
+      "deposit": "",
+      "withdraw": "",
+      "assetName": "",
+      "available": "",
+      "lastPrice": "",
+      "equivalent": ""
+    },
+    "assetDetail": {
+      "error1": "",
+      "error2": "",
+      "locked": "",
+      "inOrder": "",
+      "available": "",
+      "tlDeposit": "",
+      "marketprice": "",
+      "noBankAddress": "",
+      "noResultSearch": "",
+      "depositCloseTitle": "",
+      "noBankAddressTitle": "",
+      "transactionHistory": "",
+      "withdrawCloseTitle": "",
+      "depositCloseDescription": "",
+      "withdrawCloseDescription": ""
+    },
+    "description": {
+      "onlyTl": "",
+      "transfer": "",
+      "depozitBy": "",
+      "noDeposit": "",
+      "noTransfer": "",
+      "noWithdraw": "",
+      "amountTransfer": "",
+      "canNotCanceled": "",
+      "canTransaction": "",
+      "noDepositLimit": "",
+      "onlyPureAmount": "",
+      "transactionFee": "",
+      "withdrawAmount": "",
+      "beSureForAddress": "",
+      "showSmallAmounts": "",
+      "transactionDelete": "",
+      "transferInstruction": "",
+      "noDepositAndWithdraw": ""
+    },
+    "fixedAssets": "",
+    "label_close": "",
+    "ownedAmount": "",
+    "pnlInfoText": {
+      "infoText": "",
+      "profitLose": "",
+      "profitLoseText": "",
+      "totalValueChange": "",
+      "totalValueChangeText": ""
+    },
+    "selectAsset": "",
+    "smallAssets": {
+      "link": "",
+      "title": "",
+      "preLogin": "",
+      "emptyState": "",
+      "approxValue": "",
+      "description": "",
+      "walletAmount": "",
+      "invalidSubmit": "",
+      "priceChanging": "",
+      "amountRecieved": "",
+      "convertedCoins": "",
+      "successConvert": "",
+      "approvedConvert": "",
+      "convertedAmount": "",
+      "priceChangingMore": "",
+      "convertedCoinsMore": "",
+      "approvedDescription": ""
+    },
+    "totalAssets": "",
+    "transaction": {
+      "pending": "",
+      "started": "",
+      "canceled": "",
+      "verified": "",
+      "shootingFee": "",
+      "selectNetwork": "",
+      "networkWithdraw": "",
+      "cryptoAddressAdd": "",
+      "lastTransactions": "",
+      "pending_donation": "",
+      "emailConfirmation": "",
+      "withdrawalRequest": "",
+      "pending-declaration": "",
+      "pending-mfa-approve": "",
+      "pending-email-approve": "",
+      "transferConfirmationInfo": ""
+    },
+    "walletHover": {
+      "movements": "",
+      "buyAndSell": "",
+      "openOrders": "",
+      "alarmCreate": "",
+      "goWalletDetail": "",
+      "allTransactions": ""
+    },
+    "cryptoAssets": "",
+    "walletAmount": "",
+    "assetTransfer": "",
+    "balanceDetail": {
+      "filter": {
+        "lastDay": ""
+      },
+      "totalChange": {
+        "info": {
+          "desc1": "",
+          "desc2": "",
+          "desc3": "",
+          "title": ""
+        },
+        "overview": ""
+      },
+      "notFoundData": "",
+      "profitAndLoss": {
+        "info": {
+          "desc1": "",
+          "desc2": "",
+          "desc3": "",
+          "desc4": "",
+          "title": ""
+        },
+        "overview": ""
+      },
+      "selectedTotal": "",
+      "dailyCalculation": "",
+      "currencyCalculation": "",
+      "dailyApproximatePotentialReturn": ""
+    },
+    "changeAccount": "",
+    "selectedTotal": "",
+    "tlTransaction": "",
+    "TransferStatus": {
+      "Failed": "",
+      "Queued": "",
+      "Cancelled": "",
+      "Completed": "",
+      "Processing": "",
+      "WaitingApproval": ""
+    },
+    "chooseCurrency": "",
+    "showBankDetail": "",
+    "descSelectAsset": "",
+    "availableBalance": "",
+    "entityToBeListed": "",
+    "transferedAmount": "",
+    "cryptoTransaction": "",
+    "memoTagIsRequired": "",
+    "totalAssetsAmount": "",
+    "transactionAction": {
+      "deposit": "",
+      "withdraw": ""
+    },
+    "balanceInformation": {
+      "pnl": {
+        "7days": "",
+        "daily": "",
+        "30days": ""
+      },
+      "toDay": "",
+      "totalBalance": ""
+    },
+    "dailyWithdrawLimit": "",
+    "walletApproxAmount": "",
+    "selectedAssetsTotal": "",
+    "totalCurrencyAmount": "",
+    "monthlyWithdrawLimit": "",
+    "selectDepositNetwork": "",
+    "transactionComission": "",
+    "currenctWithdrawAmount": "",
+    "selectParibuBankAccount": "",
+    "destinationTagIsRequired": ""
+  },
+  "account": {
+    "menu": {
+      "title": {
+        "support": "",
+        "account_info": ""
+      },
+      "menu_items": {
+        "blog": "",
+        "log_out": "",
+        "api_keys": "",
+        "user_info": "",
+        "address_book": "",
+        "notifications": "",
+        "support_center": "",
+        "theme_settings": "",
+        "commission_rates": "",
+        "privacy_policies": "",
+        "security_settings": ""
+      },
+      "log_out_overlay": ""
+    },
+    "name": "",
+    "create": "",
+    "delete": "",
+    "freeze": "",
+    "nameOf": "",
+    "signIn": "",
+    "passkey": {
+      "add": "",
+      "modal": {
+        "fast": {
+          "title": "",
+          "description": ""
+        },
+        "title": "",
+        "secure": {
+          "title": "",
+          "description": ""
+        },
+        "singleKey": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "title": "",
+      "delete": {
+        "title": "",
+        "submit": "",
+        "description": ""
+      },
+      "createdAt": "",
+      "duplicate": {
+        "title": "",
+        "description": ""
+      },
+      "deviceName": "",
+      "displayName": ""
+    },
+    "signOut": "",
+    "api_keys": {
+      "api_list": {
+        "title": "",
+        "empty_list": "",
+        "list_title": "",
+        "description": ""
+      },
+      "api_create": {
+        "title": "",
+        "inputs": {
+          "end_date": "",
+          "key_name": "",
+          "algorithm": "",
+          "hmac_title": "",
+          "public_key": "",
+          "start_date": "",
+          "choose_date": "",
+          "ed25519_title": "",
+          "restrict_date": "",
+          "whitelisted_ips": "",
+          "hmac_description": "",
+          "ed25519_description": "",
+          "whitelisted_ips_description": ""
+        },
+        "created_overlay": {
+          "warning": "",
+          "secret_key": "",
+          "created_key": ""
+        }
+      },
+      "api_detail": {
+        "title": "",
+        "delete_api": "",
+        "list_items": {
+          "api_key": "",
+          "key_name": "",
+          "algorithm": "",
+          "created_at": "",
+          "whitelisted_ips": "",
+          "date_restriction": ""
+        },
+        "info_overlay_title": ""
+      },
+      "api_update_title": ""
+    },
+    "freezeIt": "",
+    "onFreeze": "",
+    "outdated": "",
+    "security": {
+      "g2fa": {
+        "add": {
+          "info": "",
+          "step1": "",
+          "step2": "",
+          "step3": "",
+          "steps": {
+            "1": "",
+            "2": "",
+            "3": ""
+          },
+          "title": ""
+        },
+        "setup": {
+          "info": "",
+          "link": "",
+          "title": "",
+          "description": ""
+        },
+        "disable": {
+          "btn": "",
+          "title": "",
+          "description": ""
+        }
+      },
+      "title": "",
+      "secure": "",
+      "critical": "",
+      "sessions": {
+        "ip": "",
+        "time": "",
+        "title": "",
+        "button": "",
+        "location": "",
+        "info_card": "",
+        "description": "",
+        "active_device": "",
+        "delete_overlay": {
+          "title": "",
+          "button": "",
+          "description": ""
+        },
+        "delete_all_devices_overlay": {
+          "title": "",
+          "button": "",
+          "description": ""
+        }
+      },
+      "subtitle": "",
+      "g2fa_desc": "",
+      "mid_secure": "",
+      "description": "",
+      "closeAccount": {
+        "drawer": {
+          "close": "",
+          "email": "",
+          "title": "",
+          "reason": {
+            "title": "",
+            "options": {
+              "1": "",
+              "2": "",
+              "3": ""
+            }
+          },
+          "bullets": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "youSure": ""
+        },
+        "unable": {
+          "title": "",
+          "description": ""
+        },
+        "verifyDialog": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "changePassword": {
+        "info": "",
+        "close": "",
+        "title": "",
+        "freeze": "",
+        "description": ""
+      },
+      "freeze_account": {
+        "title": "",
+        "bullets": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": ""
+        },
+        "reasons": {
+          "1": "",
+          "2": "",
+          "3": ""
+        },
+        "subtitle": "",
+        "info_card": "",
+        "description": "",
+        "reason_title": "",
+        "freeze_overlay": {
+          "title": "",
+          "button": "",
+          "open_orders": "",
+          "cancel_order": "",
+          "order_details": {
+            "date": "",
+            "type": "",
+            "amount": "",
+            "status": "",
+            "unit_price": "",
+            "total_amount": ""
+          }
+        },
+        "freezed_account_overlay": {
+          "title": "",
+          "button": "",
+          "description": ""
+        }
+      },
+      "security_steps": {
+        "g2fa": "",
+        "title": "",
+        "passkey": ""
+      },
+      "advanced_security": {
+        "title": "",
+        "close_account": "",
+        "freeze_account": "",
+        "change_password": "",
+        "device_management": ""
+      }
+    },
+    "setEmail": "",
+    "settings": "",
+    "verified": "",
+    "myAccount": "",
+    "user_info": {
+      "title": "",
+      "inputs": {
+        "e_mail": "",
+        "mobile": "",
+        "name_surname": ""
+      },
+      "description": "",
+      "change_email": {
+        "title": "",
+        "button": "",
+        "inputs": {
+          "email": "",
+          "password": "",
+          "email_repeat": ""
+        },
+        "info_card": "",
+        "description": "",
+        "otp_overlay": {
+          "new_email_confirm_title": "",
+          "old_email_confirm_title": "",
+          "new_email_confirm_description": ""
+        }
+      }
+    },
+    "unverified": "",
+    "description": {
+      "active": "",
+      "freeze": "",
+      "support": "",
+      "activeBy": "",
+      "noSignIn": "",
+      "InfoEmail": "",
+      "needEmail": "",
+      "deleteSure": "",
+      "freezeSure": "",
+      "activeSteps": "",
+      "information": "",
+      "verifyEmail": "",
+      "confirmEmail": "",
+      "deletePolicy": "",
+      "canNotDeleted": "",
+      "informByEmail": "",
+      "verifyByEmail": "",
+      "deleteProgress": "",
+      "confirmIdentity": "",
+      "lockForAddEmail": "",
+      "securitySettings": "",
+      "lockForChangeEmail": "",
+      "getHelpOnNoEmailAccess": ""
+    },
+    "freezeCause": "",
+    "information": "",
+    "user_detail": {
+      "modal": {
+        "title": "",
+        "buttons": {
+          "cancel": "",
+          "upload": ""
+        }
+      },
+      "verified": "",
+      "unverified": ""
+    },
+    "address_book": {
+      "title": "",
+      "bank_addresses": {
+        "title": "",
+        "tooltip_title": "",
+        "tooltip_description": "",
+        "delete_bank_address_overlay": {
+          "IBAN": "",
+          "bank": "",
+          "title": "",
+          "button": ""
+        }
+      },
+      "crypto_addresses": {
+        "title": "",
+        "add_button": "",
+        "add_address_drawer": {
+          "title": "",
+          "button": "",
+          "inputs": {
+            "tag": "",
+            "label": "",
+            "address": "",
+            "network": "",
+            "currency": ""
+          }
+        },
+        "address_detail_drawer": {
+          "title": "",
+          "labels": {
+            "label": "",
+            "address": "",
+            "network": "",
+            "currency": ""
+          },
+          "buttons": {
+            "edit_address": "",
+            "delete_address": ""
+          }
+        },
+        "update_address_drawer": {
+          "title": "",
+          "button": ""
+        }
+      }
+    },
+    "confirmEmail": "",
+    "editSettings": "",
+    "verification": "",
+    "accountFreeze": "",
+    "deleteRequest": "",
+    "notifications": {
+      "title": "",
+      "menu_items": {
+        "transfer": "",
+        "announcements": "",
+        "orderAndAlarms": ""
+      },
+      "description": "",
+      "drawer_items": {
+        "sms": "",
+        "email": "",
+        "mobile_app": ""
+      },
+      "announcements_drawer": {
+        "new_crypto_listing": ""
+      },
+      "order_and_alarms_drawer": {
+        "title": "",
+        "matched_order": "",
+        "condition_order": ""
+      },
+      "transfer_operations_drawer": {
+        "tl_transfer_title": "",
+        "crypto_asset_transfer_title": ""
+      }
+    },
+    "authentication": "",
+    "dropAllSessions": "",
+    "deviceOperations": {
+      "ip": "",
+      "loc": "",
+      "desc": "",
+      "time": "",
+      "title": "",
+      "delete": {
+        "title": ""
+      },
+      "register": "",
+      "deviceName": "",
+      "currentDevice": "",
+      "currentDevice2": ""
+    },
+    "privacy_policies": {
+      "title": "",
+      "menu_items": {
+        "cookie_policy": "",
+        "user_agreements": "",
+        "privacy_policies": "",
+        "clarification_text": "",
+        "privacy_declaration": ""
+      },
+      "description_1": "",
+      "description_2": ""
+    },
+    "securitySettings": "",
+    "verifySavedEmail": "",
+    "updateAccountInfo": "",
+    "deleteRequestFailed": "",
+    "freezeClosedSessions": ""
+  },
+  "address": {
+    "add": {
+      "new": "",
+      "bank": "",
+      "crypto": "",
+      "newBank": "",
+      "newCrypto": ""
+    },
+    "bank": "",
+    "book": {
+      "of": "",
+      "name": "",
+      "show": "",
+      "saveFiat": "",
+      "saveCrypto": ""
+    },
+    "full": "",
+    "iban": "",
+    "memo": "",
+    "name": "",
+    "type": {
+      "fiat": "",
+      "crypto": ""
+    },
+    "email": "",
+    "create": "",
+    "crypto": "",
+    "delete": "",
+    "detail": "",
+    "nameOf": "",
+    "deposit": "",
+    "withdraw": "",
+    "recipient": "",
+    "registered": "",
+    "description": {
+      "new": "",
+      "price": "",
+      "noBank": "",
+      "private": "",
+      "noCrypto": "",
+      "noAddress": ""
+    },
+    "destination": ""
+  },
+  "api_key": {
+    "title": "",
+    "api_create": {
+      "button": "",
+      "inputs": {
+        "public_key": "",
+        "api_key_name": "",
+        "api_algorithm": "",
+        "date_error_end": "",
+        "date_error_start": "",
+        "date_error_today": "",
+        "time_restriction": "",
+        "white_listed_ips": "",
+        "usage_time_interval": "",
+        "white_listed_ips_description": ""
+      },
+      "tooltip": {
+        "hmac": "",
+        "label": "",
+        "ed25519": ""
+      },
+      "overlay_title": ""
+    },
+    "api_detail": {
+      "labels": {
+        "all_ips": "",
+        "api_key": "",
+        "created_at": "",
+        "no_interval": "",
+        "api_key_name": "",
+        "api_algorithm": "",
+        "white_listed_ips": "",
+        "usage_time_interval": ""
+      },
+      "buttons": {
+        "delete": "",
+        "update": ""
+      },
+      "copy_text": "",
+      "overlay_title": ""
+    },
+    "api_update": {
+      "title": "",
+      "button": "",
+      "inputs": {
+        "api_key_name": "",
+        "white_listed_ips": "",
+        "white_listed_ips_description": ""
+      }
+    },
+    "no_api_key": "",
+    "description": "",
+    "verification": {
+      "otp_title": "",
+      "otp_button": "",
+      "otp_description_sms": "",
+      "otp_description_g2fa": "",
+      "otp_description_email": ""
+    },
+    "api_created_overlay": {
+      "title": "",
+      "button": "",
+      "labels": {
+        "api_key": "",
+        "secret_key": "",
+        "api_key_copy_text": "",
+        "secret_key_copy_text": ""
+      },
+      "copy_text": "",
+      "warning_text": "",
+      "copy_secret_text": ""
+    }
+  },
+  "cookies": {
+    "options": {
+      "links": {
+        "required": "",
+        "marketing": "",
+        "functional": ""
+      },
+      "titles": {
+        "required": "",
+        "marketing": "",
+        "functional": ""
+      },
+      "required": "",
+      "marketing": "",
+      "functional": "",
+      "descriptions": {
+        "required": "",
+        "marketing": "",
+        "functional": ""
+      }
+    },
+    "description": "",
+    "description2thLine": ""
+  },
+  "fanApps": {
+    "label": {
+      "balance": "",
+      "bidAmount": "",
+      "votePrice": "",
+      "processing": "",
+      "balanceInfo": "",
+      "customBidInput": "",
+      "minBidAmountError": ""
+    },
+    "terms": {
+      "auction": {
+        "fb_040325": {
+          "legal": {
+            "title": ""
+          },
+          "blogUrl": ""
+        },
+        "fb_070325": {
+          "legal": {
+            "title": ""
+          },
+          "blogUrl": ""
+        },
+        "fb_102024": {
+          "legal": {
+            "title": ""
+          },
+          "blogUrl": ""
+        },
+        "fb_110325": {
+          "legal": {
+            "title": ""
+          },
+          "blogUrl": ""
+        },
+        "fb_120325": {
+          "legal": {
+            "title": ""
+          },
+          "blogUrl": ""
+        },
+        "fb_140425": {
+          "legal": {
+            "title": ""
+          },
+          "blogUrl": ""
+        },
+        "fb_170325": {
+          "legal": {
+            "title": ""
+          },
+          "blogUrl": ""
+        },
+        "auction_bjk_board_meeting21112024": {
+          "howTo": {
+            "title": ""
+          },
+          "legal": {
+            "title": ""
+          },
+          "blogUrl": ""
+        }
+      }
+    },
+    "voting": {
+      "messages": {
+        "not_found": "",
+        "has_finished": "",
+        "user_has_not_enough_asset_error": ""
+      },
+      "buyAndSend": {
+        "desc": "",
+        "title": ""
+      }
+    },
+    "auction": {
+      "join": "",
+      "offer": {
+        "ended": {
+          "desc": "",
+          "label": {
+            "share": "",
+            "shareWin": "",
+            "winnerMessage": ""
+          },
+          "title": ""
+        },
+        "buyNow": {
+          "desc": "",
+          "title": ""
+        },
+        "during": {
+          "desc": "",
+          "label": {
+            "startPrice": "",
+            "biggestOffer_amount": "",
+            "biggestOffer_person": ""
+          }
+        }
+      },
+      "messages": {
+        "finished": "",
+        "not_found": "",
+        "not_started": "",
+        "has_a_winner": "",
+        "user_not_found": "",
+        "user_has_not_agreed": "",
+        "user_rank_not_found": "",
+        "user_not_kyc_eligible": "",
+        "user_has_not_enough_asset": "",
+        "user_had_bigger_bid_before": "",
+        "bid_amount_less_than_minimum_bid_amount": "",
+        "bid_amount_less_than_starting_bid_amount": ""
+      },
+      "agreement": {
+        "FB": {
+          "condition": "",
+          "description": ""
+        },
+        "legal": {
+          "content1": "",
+          "content2": "",
+          "content3": ""
+        },
+        "auction_bjk_board_meeting21112024": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "buyAndSend": {
+        "info": "",
+        "label": {
+          "balance": "",
+          "biggestOffer": "",
+          "missingTokens": ""
+        },
+        "title": ""
+      },
+      "onboarding": {
+        "desc1": "",
+        "desc2": "",
+        "desc3": "",
+        "title1": "",
+        "title2": "",
+        "title3": ""
+      },
+      "statusMessage": {
+        "rank": "",
+        "noBid": "",
+        "winner": "",
+        "standing": "",
+        "rankChange": "",
+        "winnersLastOne": "",
+        "winnersLastTwo": ""
+      }
+    },
+    "endVote": {
+      "desc": "",
+      "title": ""
+    }
+  },
+  "general": {
+    "ok": "",
+    "tl": "",
+    "all": "",
+    "buy": "",
+    "fee": "",
+    "seo": {
+      "pizzaTitle": "",
+      "description": "",
+      "pizzaDescription": ""
+    },
+    "back": "",
+    "bank": "",
+    "copy": "",
+    "dark": "",
+    "date": "",
+    "edit": "",
+    "here": "",
+    "home": "",
+    "info": "",
+    "more": "",
+    "next": "",
+    "okay": "",
+    "save": "",
+    "sell": "",
+    "time": "",
+    "apply": "",
+    "chart": "",
+    "check": "",
+    "clear": "",
+    "close": "",
+    "error": {
+      "noTL": "",
+      "noToken": "",
+      "noTL_toBuy": ""
+    },
+    "label": {
+      "buy": "",
+      "day": "",
+      "hour": "",
+      "sell": "",
+      "time": {
+        "UntilEnd": "",
+        "UntilStart": "",
+        "UntilEnd_home": "",
+        "Until_Vote_End": "",
+        "UntilStart_home": "",
+        "UntilEnd_auction": "",
+        "UntilEnd_message": "",
+        "UntilEnd_sendMessage": ""
+      },
+      "value": "",
+      "minute": "",
+      "seconds": "",
+      "password": {
+        "condition1": "",
+        "condition2": "",
+        "condition3": "",
+        "condition4": ""
+      },
+      "day_short": "",
+      "mostTrade": "",
+      "mostValue": "",
+      "sendAgain": "",
+      "hour_short": "",
+      "yourBalance": "",
+      "minute_short": "",
+      "seconds_short": ""
+    },
+    "level": "",
+    "light": "",
+    "paste": "",
+    "price": "",
+    "reset": "",
+    "title": "",
+    "today": "",
+    "total": "",
+    "amount": "",
+    "button": {
+      "buy": "",
+      "auth": {
+        "sendAgain": ""
+      },
+      "back": "",
+      "exit": "",
+      "home": "",
+      "next": "",
+      "okay": "",
+      "sell": "",
+      "send": "",
+      "skip": "",
+      "clear": "",
+      "close": "",
+      "later": "",
+      "offer": "",
+      "paste": "",
+      "share": {
+        "URL": "",
+        "qr_code": ""
+      },
+      "buyNow": "",
+      "cancel": "",
+      "create": {
+        "qr_code": ""
+      },
+      "signIn": "",
+      "signUp": "",
+      "verify": "",
+      "approve": "",
+      "auction": {
+        "buyAndSend": ""
+      },
+      "confirm": "",
+      "deposit": "",
+      "getInfo": "",
+      "seeGift": "",
+      "support": "",
+      "continue": "",
+      "moreInfo": "",
+      "positive": "",
+      "sendCode": "",
+      "tryAgain": "",
+      "verifyId": "",
+      "allAssets": "",
+      "depositTL": "",
+      "retry_kyc": "",
+      "sendToken": "",
+      "verifyId2": "",
+      "allowNotif": "",
+      "claim_gift": "",
+      "legalTerms": "",
+      "outOfCodes": "",
+      "seeDetails": "",
+      "toSettings": "",
+      "createAlarm": "",
+      "getDiscount": "",
+      "newPassword": "",
+      "openGallery": "",
+      "sendMessage": "",
+      "completeInfo": "",
+      "continuation": "",
+      "go_to_voting": "",
+      "go_to_wallet": "",
+      "offer_amount": "",
+      "openSettings": "",
+      "signIn_logIn": "",
+      "writeMessage": "",
+      "buyNow_amount": "",
+      "createPasskey": "",
+      "discountEnded": "",
+      "shareReferral": "",
+      "verifyAddress": "",
+      "continueSignup": "",
+      "forgotPassword": "",
+      "offer_increase": "",
+      "see_promotions": "",
+      "differentSignin": "",
+      "buyNow_finalAmount": "",
+      "goTo_AuctionResult": "",
+      "transaction_details": "",
+      "appConnectPermission": "",
+      "continueIdVerification": ""
+    },
+    "cancel": "",
+    "change": "",
+    "charts": "",
+    "closed": "",
+    "copied": "",
+    "copyBy": "",
+    "delete": "",
+    "filter": "",
+    "giveUp": "",
+    "logOut": "",
+    "others": "",
+    "rename": "",
+    "search": {
+      "asset": "",
+      "input": "",
+      "featured": "",
+      "noResult": "",
+      "topSearches": "",
+      "pastSearches": "",
+      "noResultCrypto": "",
+      "noResultMarket": ""
+    },
+    "signin": "",
+    "slogan": "",
+    "update": "",
+    "verify": "",
+    "wallet": "",
+    "approve": "",
+    "askHelp": "",
+    "checkIt": "",
+    "confirm": "",
+    "deposit": "",
+    "details": "",
+    "filters": "",
+    "markets": "",
+    "network": "",
+    "process": "",
+    "welcome": "",
+    "advanced": "",
+    "andAbove": "",
+    "appTheme": "",
+    "bankName": "",
+    "continue": "",
+    "currency": "",
+    "fromHere": "",
+    "policies": "",
+    "previous": "",
+    "skipStep": "",
+    "standard": "",
+    "toCancel": "",
+    "verified": "",
+    "withdraw": "",
+    "allAssets": "",
+    "condition": "",
+    "connected": "",
+    "feedbacks": "",
+    "intervals": {
+      "day": "",
+      "hour": "",
+      "week": "",
+      "year": "",
+      "month": ""
+    },
+    "loginInfo": "",
+    "noBalance": "",
+    "noResults": "",
+    "orderTime": "",
+    "orderbook": "",
+    "unitPrice": "",
+    "yesterday": "",
+    "conversion": "",
+    "depthTable": "",
+    "fastAccess": "",
+    "highlights": "",
+    "marketInfo": "",
+    "noInternet": "",
+    "percentage": "",
+    "priceChart": "",
+    "sendAmount": "",
+    "takeMinute": "",
+    "tokenChart": "",
+    "totalPrice": "",
+    "whitepaper": "",
+    "description": "",
+    "downloadApp": "",
+    "information": "",
+    "searchAsset": "",
+    "suggestions": "",
+    "systemTheme": "",
+    "totalAmount": "",
+    "viewOptions": "",
+    "addUnitPrice": "",
+    "averagePrice": "",
+    "checkDetails": "",
+    "currencyName": "",
+    "currentPrice": "",
+    "disconnected": "",
+    "loginInfoBuy": "",
+    "networkPrice": "",
+    "numberDigits": {
+      "billion": "",
+      "million": "",
+      "thousand": "",
+      "trillion": ""
+    },
+    "savedAccount": "",
+    "searchAssets": "",
+    "transactions": "",
+    "viewSettings": "",
+    "announcements": "",
+    "blockExplorer": "",
+    "companyPolicy": "",
+    "completeLater": "",
+    "createAccount": "",
+    "importantInfo": "",
+    "loginInfoSell": "",
+    "matchedAmount": "",
+    "passwordReset": "",
+    "recipientName": "",
+    "repeatProcess": "",
+    "residenceCity": "",
+    "searchResults": "",
+    "selectNetwork": "",
+    "addToFavorites": "",
+    "changeAppTheme": "",
+    "changePassword": "",
+    "destinationTag": "",
+    "favoriAndAlarm": "",
+    "noSearchResult": "",
+    "noresultMarket": "",
+    "officalWebSite": "",
+    "selectCurrency": "",
+    "appViewSettings": "",
+    "createYourEmail": "",
+    "depositCurrency": "",
+    "editAppSettings": "",
+    "emailOperations": "",
+    "historySearches": "",
+    "residenceCounty": "",
+    "reviewResources": "",
+    "startInvestment": "",
+    "FinancialHistory": "",
+    "deviceOperations": "",
+    "featuredContents": "",
+    "savedPhoneNumber": "",
+    "securitySettings": "",
+    "withdrawCurrency": "",
+    "cookiePreferences": "",
+    "transactionCancel": "",
+    "createEmailAddress": "",
+    "showAllTransaction": "",
+    "useNewIdentityCard": "",
+    "institutionRequests": "",
+    "noResultInLastMonth": "",
+    "partnershipRequests": "",
+    "lastOperationSummary": "",
+    "importantInformations": "",
+    "standartCommissionRates": "",
+    "downloadFinancialHistory": "",
+    "noResultOnSelectedPeriod": "",
+    "notificationsAndAnnouncements": ""
+  },
+  "markets": {
+    "title": "",
+    "change": "",
+    "volume": "",
+    "lastPrice": "",
+    "toBeListed": "",
+    "noFavorites": ""
+  },
+  "onboard": {
+    "dont": "",
+    "later": "",
+    "wallet": {
+      "transfer": ""
+    },
+    "markets": {
+      "pin": "",
+      "favori": "",
+      "filter": ""
+    },
+    "overview": {
+      "alarm": "",
+      "order": ""
+    },
+    "navigation": {
+      "wallet": "",
+      "markets": "",
+      "overview": "",
+      "fastAccess": "",
+      "notifications": ""
+    },
+    "marketsDetail": {
+      "view": "",
+      "graph": "",
+      "market": "",
+      "openOrder": "",
+      "userMatch": "",
+      "marketMatch": "",
+      "alarmAndFavori": ""
+    }
+  },
+  "passkey": {
+    "name": "",
+    "setup": {
+      "title": "",
+      "description": ""
+    },
+    "title": "",
+    "create": "",
+    "delete": {
+      "title": "",
+      "description": ""
+    },
+    "remove": "",
+    "created": {
+      "title": "",
+      "description": ""
+    },
+    "devices": {
+      "title": "",
+      "description": ""
+    },
+    "security": {
+      "title": "",
+      "description": ""
+    },
+    "fastLogin": "",
+    "created_at": "",
+    "duplicated": "",
+    "createLater": "",
+    "fingerprint": {
+      "title": "",
+      "description": ""
+    },
+    "securitySettings": ""
+  },
+  "sign-in": {
+    "title": "",
+    "phoneInput": "",
+    "signInButton": "",
+    "signUpButton": "",
+    "passwordInput": ""
+  },
+  "feedback": {
+    "popup": {
+      "desc": "",
+      "title": "",
+      "button": {
+        "negative": "",
+        "positive": ""
+      }
+    },
+    "comment": {
+      "desc": "",
+      "input": "",
+      "title": ""
+    },
+    "success": ""
+  },
+  "notFound": {
+    "name": "",
+    "page": "",
+    "links": "",
+    "description": ""
+  },
+  "overview": {
+    "kyc": {
+      "bottomSheet": {
+        "title": "",
+        "button1": "",
+        "button2": "",
+        "description": ""
+      },
+      "withdrawMoneyButton": "",
+      "withdrawMoneyDescription": ""
+    },
+    "seo": {
+      "title": "",
+      "description": ""
+    },
+    "name": "",
+    "stat": {
+      "crypto": "",
+      "billions": "",
+      "millions": "",
+      "hundereds": "",
+      "dailyVolume": "",
+      "verifiedUsers": ""
+    },
+    "todo": {
+      "email": "",
+      "login": "",
+      "deposit": "",
+      "idUpdate": "",
+      "idVerify": "",
+      "setAlarm": "",
+      "enableG2fa": "",
+      "checkFavorites": {
+        "title": "",
+        "description": ""
+      },
+      "createFavorites": {
+        "title": "",
+        "description": ""
+      },
+      "emailDescription": "",
+      "loginDescription": "",
+      "depositDescription": "",
+      "idUpdateDescription": "",
+      "idVerifyDescription": "",
+      "setAlarmDescription": {
+        "forAsset": "",
+        "forFavorite": "",
+        "forSuggestion": ""
+      },
+      "enableG2faDescription": ""
+    },
+    "feature": {
+      "fastAndSecure": {
+        "title": "",
+        "description": ""
+      },
+      "advancedWallet": {
+        "title": "",
+        "description": ""
+      },
+      "infrastructure": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "oneClick": {
+      "title": "",
+      "buyNow": "",
+      "decreased": "",
+      "increased": "",
+      "newMarket": "",
+      "description": "",
+      "defaultCurrencies": {
+        "btc_tl": "",
+        "eth_tl": "",
+        "usdt_tl": ""
+      }
+    },
+    "snippets": {
+      "singIn": "",
+      "signInDescription": ""
+    },
+    "investNow": {
+      "title": "",
+      "signUp": "",
+      "deposit": "",
+      "idVerify": "",
+      "startInvesting": ""
+    },
+    "newParibuExperience": ""
+  },
+  "password": {
+    "new": "",
+    "again": "",
+    "enter": "",
+    "reset": "",
+    "saved": "",
+    "change": "",
+    "forgot": "",
+    "format": {
+      "number": "",
+      "atLeast": "",
+      "lowerCase": "",
+      "upperCase": ""
+    },
+    "current": "",
+    "changeIt": "",
+    "newAgain": "",
+    "operations": ""
+  },
+  "referral": {
+    "how": {
+      "title": ""
+    },
+    "info": {
+      "title": {
+        "influencer": ""
+      },
+      "definition": "",
+      "maxPercent": {
+        "user": ""
+      },
+      "AwardPercent": {
+        "user": "",
+        "follower": "",
+        "influencer": ""
+      }
+    },
+    "user": {
+      "award1": "",
+      "award2": "",
+      "condition1": "",
+      "condition2": ""
+    },
+    "label": {
+      "QRcode": "",
+      "totalAwards": "",
+      "awardPercent": "",
+      "referralCode": "",
+      "referralLink": "",
+      "newMemberAwards": "",
+      "awardPercentIcon": "",
+      "commissionAwards": ""
+    },
+    "legal": {
+      "url": ""
+    },
+    "share": {
+      "text": ""
+    },
+    "title": "",
+    "header": "",
+    "influencer": {
+      "FirstAward": "",
+      "condition1": "",
+      "condition2": "",
+      "SecondAward": "",
+      "FirstAwardIcon": "",
+      "SecondAwardIcon": ""
+    },
+    "invitations": {
+      "label": {
+        "preUser": "",
+        "postUser": "",
+        "preUserShort": "",
+        "postUserShort": ""
+      },
+      "state": {
+        "active": "",
+        "waiting": ""
+      },
+      "title": "",
+      "emptyState": "",
+      "awardPercent": ""
+    },
+    "awardPercent": {
+      "FifthSelection": "",
+      "FirstSelection": "",
+      "ForthSelection": "",
+      "ThirdSelection": "",
+      "SecondSelection": ""
+    },
+    "influencerTitle": ""
+  },
+  "sessions": {
+    "title": "",
+    "description": ""
+  },
+  "settings": {
+    "passkey": {
+      "label": "",
+      "remove": {
+        "info": "",
+        "title": "",
+        "confirm": ""
+      },
+      "rename": {
+        "desc": "",
+        "title": ""
+      },
+      "listDate": "",
+      "listTitle": ""
+    },
+    "communication": {
+      "desc": "",
+      "title": "",
+      "toggle": {
+        "SMS": "",
+        "call": "",
+        "email": ""
+      }
+    }
+  },
+  "assetItem": {
+    "iban": "",
+    "memo": "",
+    "buyerName": "",
+    "transferInfo": "",
+    "depositTlInfo": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": ""
+    },
+    "importantInfo": "",
+    "selectNetwork": "",
+    "depositAddress": "",
+    "depositAssetInfo": {
+      "1": "",
+      "2": ""
+    }
+  },
+  "campaigns": {
+    "pizzaDay": {
+      "page": {
+        "title": {
+          "pre": "",
+          "post": ""
+        },
+        "importance": {
+          "title": "",
+          "description": ""
+        },
+        "video_card": {
+          "title": {
+            "pre": "",
+            "post": ""
+          },
+          "app_button": {
+            "button": "",
+            "description": ""
+          },
+          "description": {
+            "pre": "",
+            "post": ""
+          }
+        },
+        "description": {
+          "pre": "",
+          "post": ""
+        },
+        "how_to_celebrate": {
+          "desc": "",
+          "steps": {
+            "2022": {
+              "desc": "",
+              "title": "",
+              "video_title": ""
+            },
+            "2023": {
+              "desc": "",
+              "title": "",
+              "video_title": ""
+            },
+            "2024": {
+              "desc": "",
+              "title": "",
+              "video_title": ""
+            },
+            "2025": {
+              "desc": "",
+              "title": "",
+              "video_title": ""
+            }
+          },
+          "title": ""
+        },
+        "how_to_participate": {
+          "steps": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "title": "",
+          "description": ""
+        },
+        "campaign_conditions": {
+          "title": "",
+          "conditions": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "9": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": "",
+            "21": "",
+            "22": "",
+            "23": "",
+            "24": "",
+            "25": ""
+          },
+          "description": ""
+        },
+        "what_is_paribu_pizza_day": {
+          "title": "",
+          "description": ""
+        },
+        "what_is_bitcoin_pizza_day": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "title": {
+        "pre": "",
+        "post": "",
+        "during": "",
+        "general": ""
+      },
+      "banner": {
+        "button": "",
+        "detail": {
+          "description": {
+            "pre": ""
+          }
+        },
+        "description": ""
+      },
+      "dialog": {
+        "title_pre": "",
+        "description_pre": "",
+        "counter_title_pre": "",
+        "description_active": "",
+        "counter_title_active": ""
+      },
+      "heading": {
+        "pre": "",
+        "post": "",
+        "during": ""
+      },
+      "countdown": {
+        "pre": "",
+        "post": "",
+        "preSeconds": "",
+        "postSeconds": ""
+      },
+      "description": {
+        "pre": "",
+        "post": "",
+        "sales": "",
+        "during": "",
+        "nocode": ""
+      }
+    }
+  },
+  "countdown": {
+    "day": "",
+    "hour": "",
+    "minute": "",
+    "second": "",
+    "remaining": ""
+  },
+  "discounts": {
+    "detail": {
+      "howTo": {
+        "tab": "",
+        "title": "",
+        "content1": "",
+        "content2": "",
+        "content3": "",
+        "content4": "",
+        "content5": "",
+        "content6": ""
+      },
+      "legal": {
+        "tab": "",
+        "title": "",
+        "content1": ""
+      },
+      "button": {
+        "active": "",
+        "noCode": "",
+        "noEvent": "",
+        "noLimit": ""
+      }
+    },
+    "header": "",
+    "preview": {
+      "10": "",
+      "20": "",
+      "info": {
+        "limit": "",
+        "transaction": ""
+      },
+      "button": {
+        "view": "",
+        "active": "",
+        "passive": ""
+      },
+      "codeView": ""
+    }
+  },
+  "donations": {
+    "deprem": {
+      "title": "",
+      "subtitle": "",
+      "description": ""
+    },
+    "desc_chooseCrypto": ""
+  },
+  "easyTrade": {
+    "buy": "",
+    "info": {
+      "order": "",
+      "market": "",
+      "buyOrder": "",
+      "sellOrder": ""
+    },
+    "name": "",
+    "sell": "",
+    "error": {
+      "noTL": "",
+      "noCrypto": ""
+    },
+    "label": {
+      "balance": ""
+    },
+    "title": "",
+    "total": "",
+    "balance": "",
+    "currency": {
+      "buy": "",
+      "sell": ""
+    },
+    "balanceNot": "",
+    "calculated": {
+      "total": "",
+      "amount": ""
+    },
+    "emptyState": "",
+    "totalAmount": "",
+    "chooseMarket": "",
+    "selectMarket": "",
+    "approximateTotal": "",
+    "balanceNotEnough": "",
+    "totalForCurrency": "",
+    "amountForCurrency": "",
+    "totalPriceNotEnough": "",
+    "unsufficientBalance": ""
+  },
+  "tradeForm": {
+    "buy": "",
+    "sell": "",
+    "limit": "",
+    "buying": "",
+    "market": "",
+    "selling": "",
+    "addAmount": "",
+    "condition": "",
+    "addUnitPrice": "",
+    "addTotalPrice": "",
+    "totalCurrency": "",
+    "buyingAndSelling": "",
+    "availableCurrency": ""
+  },
+  "attributes": {
+    "type": "",
+    "price": "",
+    "total": "",
+    "amount": "",
+    "condition": ""
+  },
+  "commission": {
+    "name": "",
+    "rates": "",
+    "description": {
+      "maker": "",
+      "taker": "",
+      "period": "",
+      "realtime": "",
+      "easyTrade": "",
+      "takerCommission": ""
+    }
+  },
+  "influencer": {
+    "home": {
+      "header": {
+        "preAuth": {
+          "title_gift": ""
+        },
+        "preAuth_TL": {
+          "title": ""
+        }
+      }
+    }
+  },
+  "mobile_kyc": {
+    "steps": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "title": "",
+    "description": "",
+    "modal_title": "",
+    "approval_title": "",
+    "qr_description": "",
+    "mobile_button_kyc": "",
+    "mobile_button_close": "",
+    "approval_description": ""
+  },
+  "navigation": {
+    "action": {
+      "alarms": "",
+      "market": "",
+      "referral": "",
+      "influencer": "",
+      "promotions": "",
+      "reward_bouquet": ""
+    }
+  },
+  "onboarding": {
+    "step1": {
+      "intro": "",
+      "title": ""
+    },
+    "step2": {
+      "intro": "",
+      "title": ""
+    },
+    "step3": {
+      "intro": "",
+      "title": ""
+    },
+    "step4": {
+      "intro": "",
+      "title": ""
+    },
+    "content": {
+      "alarms": "",
+      "market": "",
+      "easyBuy": "",
+      "referral": "",
+      "promotions": "",
+      "qr_transfer": "",
+      "notifications": ""
+    },
+    "advanced": {
+      "step1": {
+        "intro": "",
+        "title": ""
+      }
+    }
+  },
+  "promotions": {
+    "past": {
+      "header": "",
+      "emptyState": ""
+    },
+    "event": {
+      "urls": {
+        "bcf": {
+          "blogUrl": ""
+        },
+        "swipe-bcf": {
+          "blogUrl": ""
+        },
+        "arter211224": {
+          "blogUrl": ""
+        },
+        "pizzaday_25": {
+          "blogUrl": ""
+        },
+        "biletix-2024": {
+          "blogUrl": ""
+        },
+        "swipe-cgv-50": {
+          "blogUrl": ""
+        },
+        "arter20240918": {
+          "blogUrl": ""
+        },
+        "arter20250425": {
+          "blogUrl": ""
+        },
+        "cadde-kosu-25": {
+          "blogUrl": ""
+        },
+        "fb-bjk-020425": {
+          "blogUrl": ""
+        },
+        "filmekimi2024": {
+          "blogUrl": ""
+        },
+        "pizzaday-2025": {
+          "blogUrl": ""
+        },
+        "swipe-cgv-200": {
+          "blogUrl": ""
+        },
+        "swipe-popcorn": {
+          "blogUrl": ""
+        },
+        "fb-eyup-160525": {
+          "blogUrl": ""
+        },
+        "fb-lyon-210125": {
+          "blogUrl": ""
+        },
+        "acikhava-050525": {
+          "blogUrl": ""
+        },
+        "fb_svs_10112024": {
+          "blogUrl": ""
+        },
+        "gs_tot_07112024": {
+          "blogUrl": ""
+        },
+        "sinemagunu_2024": {
+          "blogUrl": ""
+        },
+        "sinemagunu_2025": {
+          "blogUrl": ""
+        },
+        "acik_hava_120525": {
+          "blogUrl": ""
+        },
+        "fb-alanya-070225": {
+          "blogUrl": ""
+        },
+        "gs-swipe-fanzone": {
+          "blogUrl": ""
+        },
+        "gs_smsn_10112024": {
+          "blogUrl": ""
+        },
+        "photography-2024": {
+          "blogUrl": ""
+        },
+        "fb-antalya-280225": {
+          "blogUrl": ""
+        },
+        "fb-erzurum-050225": {
+          "blogUrl": ""
+        },
+        "fb-kayseri-180425": {
+          "blogUrl": ""
+        },
+        "fb-rangers-040325": {
+          "blogUrl": ""
+        },
+        "swipe-gs-01122024": {
+          "blogUrl": ""
+        },
+        "swipe-gs-10112024": {
+          "blogUrl": ""
+        },
+        "swipe-gs-28102024": {
+          "blogUrl": ""
+        },
+        "yemeksepeti_102024": {
+          "blogUrl": ""
+        },
+        "yemeksepeti_112024": {
+          "blogUrl": ""
+        },
+        "yemeksepeti_122024": {
+          "blogUrl": ""
+        },
+        "fb-beko-loca-170125": {
+          "blogUrl": ""
+        },
+        "fb-beko-loca-200325": {
+          "blogUrl": ""
+        },
+        "fb-beko-loca-280125": {
+          "blogUrl": ""
+        },
+        "fb-kasimpasa-140225": {
+          "blogUrl": ""
+        },
+        "yemeksepeti20240917": {
+          "blogUrl": ""
+        },
+        "fb-anderlecht-110225": {
+          "blogUrl": ""
+        },
+        "fb-anderlecht-130225": {
+          "blogUrl": ""
+        },
+        "reflectstudio_080525": {
+          "blogUrl": ""
+        },
+        "fb-basket-topu-140125": {
+          "blogUrl": ""
+        },
+        "fb-futbol-topu-200125": {
+          "blogUrl": ""
+        },
+        "fb-beko-gs-loca-140525": {
+          "blogUrl": ""
+        },
+        "fb-imzali-forma-130125": {
+          "blogUrl": ""
+        },
+        "fb-stadyum-muze-150125": {
+          "blogUrl": ""
+        },
+        "istanbul-modern-200225": {
+          "blogUrl": ""
+        },
+        "reflectstudio_01112024": {
+          "blogUrl": ""
+        },
+        "fenerium-discount10-270125": {
+          "blogUrl": ""
+        },
+        "fenerbahce-hatayspor-050125": {
+          "blogUrl": ""
+        },
+        "yemeksepeti-mayis-ozel-080525": {
+          "blogUrl": ""
+        },
+        "yemeksepeti-nisan-ozel-020425": {
+          "blogUrl": ""
+        },
+        "yemeksepeti-subat-ozel-010225": {
+          "blogUrl": ""
+        },
+        "fb-galatasaray-deplasman-210225": {
+          "blogUrl": ""
+        },
+        "fenerbahce-beko-anadolu-efes-030125": {
+          "blogUrl": ""
+        },
+        "gst-s-f-nz-one_16122024_8537889334298": {
+          "blogUrl": ""
+        },
+        "gs-goz-mac-fan-zone-8640085777818-040125": {
+          "blogUrl": ""
+        },
+        "yemeksepeti-ocak-ozel-8623518149402-020125": {
+          "blogUrl": ""
+        },
+        "fb-beko-alba-berlin-vip-koca-mac-kampanyasi-090125": {
+          "blogUrl": ""
+        }
+      },
+      "label": {
+        "reward_gift_code": {
+          "single": "",
+          "multiple": ""
+        },
+        "reward_cgv_menu_code": {
+          "single": "",
+          "multiple": ""
+        },
+        "reward_discount_code": {
+          "single": "",
+          "multiple": ""
+        },
+        "reward_cgv_money_code": {
+          "single": "",
+          "multiple": ""
+        }
+      },
+      "terms": {
+        "bcf": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "tab": "",
+            "title": ""
+          },
+          "requirements": ""
+        },
+        "swipe-bcf": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          }
+        },
+        "arter211224": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "pizzaday_25": {
+          "info": {
+            "text": "",
+            "title": ""
+          },
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          },
+          "requirements": ""
+        },
+        "biletix-2024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "tab": "",
+            "title": ""
+          },
+          "requirements": ""
+        },
+        "swipe-cgv-50": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          }
+        },
+        "arter20240918": {
+          "howTo": {
+            "contents": ""
+          }
+        },
+        "arter20250425": {
+          "howTo": {
+            "contents": ""
+          }
+        },
+        "cadde-kosu-25": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-bjk-020425": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "filmekimi2024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "pizzaday-2025": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "swipe-cgv-200": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          }
+        },
+        "swipe-popcorn": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          }
+        },
+        "fb-eyup-160525": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-lyon-210125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "acikhava-050525": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "fb_svs_10112024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          },
+          "requirements": {
+            "1": {
+              "text": ""
+            }
+          }
+        },
+        "gs_tot_07112024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          },
+          "requirements": {
+            "1": {
+              "text": ""
+            }
+          }
+        },
+        "sinemagunu_2024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "sinemagunu_2025": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "acik_hava_120525": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "tab": "",
+            "title": ""
+          },
+          "requirements": ""
+        },
+        "fb-alanya-070225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "gs-swipe-fanzone": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "gs_smsn_10112024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          },
+          "requirements": {
+            "1": {
+              "text": ""
+            }
+          }
+        },
+        "photography-2024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "fb-antalya-280225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-erzurum-050225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-kayseri-180425": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-rangers-040325": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "swipe-gs-01122024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "swipe-gs-10112024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "swipe-gs-28102024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "yemeksepeti_102024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "yemeksepeti_112024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          }
+        },
+        "yemeksepeti_122024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          }
+        },
+        "fb-beko-loca-170125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-beko-loca-200325": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-beko-loca-280125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-kasimpasa-140225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "yemeksepeti20240917": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "fb-anderlecht-110225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-anderlecht-130225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "reflectstudio_080525": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          }
+        },
+        "fb-basket-topu-140125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-futbol-topu-200125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-beko-gs-loca-140525": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-imzali-forma-130125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fb-stadyum-muze-150125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "istanbul-modern-200225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "reflectstudio_01112024": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "legal": {
+            "title": ""
+          }
+        },
+        "fenerium-discount10-270125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fenerbahce-hatayspor-050125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "yemeksepeti-mayis-ozel-080525": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "yemeksepeti-nisan-ozel-020425": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "yemeksepeti-subat-ozel-010225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "fb-galatasaray-deplasman-210225": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "fenerbahce-beko-anadolu-efes-030125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        },
+        "gs-goz-mac-fan-zone-8640085777818-040125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "yemeksepeti-ocak-ozel-8623518149402-020125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          }
+        },
+        "fb-beko-alba-berlin-vip-koca-mac-kampanyasi-090125": {
+          "howTo": {
+            "title": "",
+            "contents": ""
+          },
+          "requirements": ""
+        }
+      },
+      "button": {
+        "active": "",
+        "noCode": "",
+        "noEvent": "",
+        "noLimit": ""
+      },
+      "expire_date": "",
+      "error_messages": {
+        "sold_out": {
+          "desc": "",
+          "title": ""
+        },
+        "not_found": {
+          "desc": "",
+          "title": ""
+        },
+        "not_started": {
+          "desc": "",
+          "title": ""
+        },
+        "out_of_date": {
+          "desc": "",
+          "title": ""
+        },
+        "acquire_lock": {
+          "desc": "",
+          "title": ""
+        },
+        "kyc_not_verified": {
+          "desc": "",
+          "title": ""
+        },
+        "something_went_wrong": {
+          "desc": "",
+          "title": ""
+        },
+        "participation_condition": {
+          "desc": "",
+          "title": ""
+        }
+      },
+      "expire_date_back": ""
+    },
+    "swipe": {
+      "label": {
+        "reward_qr_code": ""
+      },
+      "title": {
+        "guest": "",
+        "earned": "",
+        "nomatch": "",
+        "attended": "",
+        "attended_bozcaada": ""
+      }
+    },
+    "header": "",
+    "status": {
+      "earned": "",
+      "started": "",
+      "finished": "",
+      "sold_out": "",
+      "not_started": ""
+    },
+    "countdown": {
+      "until_start": ""
+    }
+  },
+  "signUpPage": {
+    "kvkkText": "",
+    "acceptTerms": "",
+    "otherCitizen": "",
+    "clarification": "",
+    "createAccount": "",
+    "privacyPolicy": "",
+    "turkeyCitizen": "",
+    "personalDataText": "",
+    "clarificationText": "",
+    "explicitConsentText": "",
+    "businessDataProcessing": "",
+    "termsOfUseAndMembership": "",
+    "consumerProtectionPolicy": "",
+    "commercialElectronicPermit": ""
+  },
+  "smallAsset": {
+    "tl": "",
+    "and": "",
+    "asset": "",
+    "balance": "",
+    "convert": "",
+    "noAsset": "",
+    "tlValue": "",
+    "commission": "",
+    "converteAsset": "",
+    "errorAssetInfo": "",
+    "assetsTotalValue": "",
+    "convertToBalance": "",
+    "toWalletTransfer": "",
+    "lowBalanceNoAsset": "",
+    "selectedAssetValue": "",
+    "convertAssetTenUnder": "",
+    "smallAssetConvertion": "",
+    "notSmallAssetConvertion": ""
+  },
+  "travelRule": {
+    "info": {
+      "title": "",
+      "subInfo": "",
+      "description": ""
+    },
+    "amount": "",
+    "cancel": "",
+    "status": "",
+    "submit": "",
+    "deposit": {
+      "name": "",
+      "check": "",
+      "title": "",
+      "sender": "",
+      "address": "",
+      "example": "",
+      "surname": "",
+      "sendType": "",
+      "description": "",
+      "nameSurname": "",
+      "sendOptions": {
+        "wallet": "",
+        "foreignExchange": "",
+        "domesticExchange": ""
+      },
+      "closeConfirm": {
+        "title": "",
+        "subInfo": "",
+        "description": "",
+        "cancelConfirm": "",
+        "continueConfirm": ""
+      },
+      "sendTypeTitle": "",
+      "senderOptions": {
+        "own": "",
+        "other": "",
+        "instutition": ""
+      },
+      "instutitionName": "",
+      "addressDescription": "",
+      "platformOrWalletName": ""
+    },
+    "process": "",
+    "withdraw": {
+      "name": "",
+      "check": "",
+      "title": "",
+      "address": "",
+      "example": "",
+      "surname": "",
+      "receiver": "",
+      "sendType": "",
+      "description": "",
+      "nameSurname": "",
+      "sendOptions": {
+        "wallet": "",
+        "foreignExchange": "",
+        "domesticExchange": ""
+      },
+      "closeConfirm": {
+        "title": "",
+        "description": "",
+        "cancelConfirm": "",
+        "continueConfirm": ""
+      },
+      "sendTypeTitle": "",
+      "instutitionName": "",
+      "receiverOptions": {
+        "own": "",
+        "other": "",
+        "instutition": ""
+      },
+      "addressDescription": "",
+      "platformOrWalletName": ""
+    },
+    "modalInfo": "",
+    "whyDoWant": "",
+    "addresInfo": "",
+    "selectData": {
+      "me": "",
+      "other": "",
+      "wallet": "",
+      "company": "",
+      "foreign": "",
+      "domestic": ""
+    },
+    "wantToQuit": "",
+    "depositWait": "",
+    "drawerTitle": "",
+    "confirmLater": "",
+    "description1": "",
+    "transferInfo": "",
+    "cancelTransfer": "",
+    "exampleCompany": "",
+    "receiverCancel": "",
+    "senderRemember": "",
+    "transferSender": "",
+    "confirmTransfer": {
+      "date": "",
+      "title": "",
+      "amount": "",
+      "button": "",
+      "address": "",
+      "description": ""
+    },
+    "receiverRemember": "",
+    "transferContinue": "",
+    "enterReceiverInfo": ""
+  },
+  "validation": {
+    "alpha": "",
+    "email": "",
+    "length": "",
+    "over18": "",
+    "numeric": "",
+    "under90": "",
+    "alphaNum": "",
+    "currency": "",
+    "password": {
+      "number": "",
+      "lowerCase": "",
+      "minLength": "",
+      "upparCase": ""
+    },
+    "required": "",
+    "algorithm": "",
+    "otpLength": "",
+    "validDate": "",
+    "validIban": "",
+    "otpNumeric": "",
+    "dateBetween": "",
+    "nameMinWord": "",
+    "passwordMin": "",
+    "memoTagRegex": "",
+    "presaleTerms": "",
+    "tradeBetween": "",
+    "whitelistIPs": "",
+    "requiredGroup": "",
+    "validIdentity": "",
+    "emailConfirmed": "",
+    "passwordFormat": "",
+    "policyRequired": "",
+    "presaleSoldOut": "",
+    "selectRequired": "",
+    "maxTotalPresale": "",
+    "minTotalPresale": "",
+    "serialNumberMax": "",
+    "serialNumberMin": "",
+    "maxAmountPresale": "",
+    "minAmountPresale": "",
+    "validDateByToday": "",
+    "validPhoneNumber": "",
+    "apiKeyIpWhitelist": "",
+    "lettersAndDotOnly": "",
+    "maxWithdrawAmount": "",
+    "minWithdrawAmount": "",
+    "passwordConfirmed": "",
+    "totalMoreThanZero": "",
+    "amountMoreThanZero": "",
+    "maxAvailableAmount": "",
+    "maxLengthWithLabel": "",
+    "minLengthWithLabel": "",
+    "nameMinWordWithDot": "",
+    "serialNumberLength": "",
+    "walletAddressRegex": "",
+    "destinationTagRegex": "",
+    "unsufficientBalance": "",
+    "oldSerialNumberLength": "",
+    "remainingPresaleTotal": "",
+    "remainingPresaleAmount": "",
+    "identityCardNumberLength": "",
+    "balanceSuffuciencyPresale": ""
+  },
+  "walletPage": {
+    "search": "",
+    "overView": {
+      "later": "",
+      "thirtyDay": "",
+      "tlDeposit": "",
+      "earningDay": "",
+      "totalAsset": "",
+      "description": "",
+      "earningWeek": "",
+      "instruction": "",
+      "earningMonth": "",
+      "allTransactions": ""
+    },
+    "PnlOverview": {
+      "1Week": "",
+      "1Year": "",
+      "1Mount": "",
+      "6Mount": "",
+      "profitLose": "",
+      "valueChange": ""
+    },
+    "searchForAssets": "",
+    "hidelLowBalances": ""
+  },
+  "button_next": "",
+  "foreign_kyc": {
+    "form": {
+      "name": "",
+      "button": "",
+      "country": "",
+      "surname": "",
+      "checkbox": "",
+      "foreign_id": "",
+      "tax_number": "",
+      "tax_country": "",
+      "date_of_birth": "",
+      "place_of_birth": ""
+    },
+    "info": {
+      "button": "",
+      "description": ""
+    },
+    "title": "",
+    "compliance": {
+      "personal": {
+        "title": "",
+        "inputs": {
+          "button": "",
+          "profession": "",
+          "income_range": "",
+          "income_source": ""
+        },
+        "description": ""
+      },
+      "investment": {
+        "title": "",
+        "inputs": {
+          "button": "",
+          "transaction_volume": "",
+          "transaction_purpose": "",
+          "transaction_frequency": ""
+        },
+        "description": ""
+      }
+    },
+    "description": "",
+    "missing_info": {
+      "button": "",
+      "day_counter": "",
+      "day_finished": ""
+    },
+    "address_verify": {
+      "bill": {
+        "format": "",
+        "document": "",
+        "validation": "",
+        "description": ""
+      },
+      "title": "",
+      "button": "",
+      "support": "",
+      "residence": {
+        "format": "",
+        "document": "",
+        "validation": "",
+        "description": ""
+      }
+    },
+    "account_progress": {
+      "info": {
+        "button": "",
+        "courier": {
+          "title": "",
+          "button": "",
+          "description": ""
+        },
+        "document": {
+          "title": "",
+          "button": "",
+          "description": ""
+        }
+      },
+      "items": {
+        "account": "",
+        "courier": "",
+        "document": ""
+      },
+      "title": ""
+    }
+  },
+  "information": {
+    "sorting": "",
+    "editDate": "",
+    "marketValue": "",
+    "historicPeak": "",
+    "maximumSupply": "",
+    "historicBottom": "",
+    "initialIcoPrice": "",
+    "circulatingSupply": "",
+    "marketDominanceIndex": ""
+  },
+  "label_today": "",
+  "maintenance": {
+    "title": "",
+    "description": "",
+    "newFeatures": {
+      "feature-1": "",
+      "feature-2": "",
+      "feature-3": "",
+      "feature-4": "",
+      "feature-5": "",
+      "feature-6": "",
+      "feature-7": "",
+      "feature-8": "",
+      "feature-9": "",
+      "feature-10": "",
+      "feature-11": "",
+      "feature-12": "",
+      "feature-13": "",
+      "feature-14": "",
+      "feature-15": "",
+      "feature-16": "",
+      "feature-17": "",
+      "feature-18": "",
+      "feature-19": "",
+      "feature-20": "",
+      "feature-21": "",
+      "feature-22": "",
+      "feature-23": "",
+      "feature-24": ""
+    }
+  },
+  "qr_transfer": {
+    "home": {
+      "label": {
+        "sendCrypto": "",
+        "receiveCrypto": ""
+      },
+      "title": ""
+    },
+    "send": {
+      "label": {
+        "receiever": "",
+        "token_to_send": ""
+      },
+      "header": "",
+      "read_qr": {
+        "info": "",
+        "error": ""
+      },
+      "success": {
+        "title": ""
+      },
+      "cameraPermission": {
+        "desc": "",
+        "title": ""
+      }
+    },
+    "share": {
+      "text": ""
+    },
+    "receive": {
+      "info": {
+        "limit_cut": {
+          "title": "",
+          "content": {
+            "0": {
+              "text": ""
+            },
+            "1": {
+              "text": ""
+            },
+            "final": ""
+          }
+        }
+      },
+      "label": {
+        "limit_cut": ""
+      },
+      "header": "",
+      "summary": {
+        "label": {
+          "token": "",
+          "amount": "",
+          "commission": ""
+        }
+      },
+      "image_info": "",
+      "openAmount": {
+        "label": ""
+      },
+      "changeToken": {
+        "title": ""
+      },
+      "fixedAmount": {
+        "info": "",
+        "label": ""
+      }
+    }
+  },
+  "transaction": {
+    "tl": "",
+    "trade": "",
+    "crypto": "",
+    "fbToken": "",
+    "bjkToken": ""
+  },
+  "travel_rule": {
+    "date": "",
+    "info": "",
+    "sender": {
+      "me": "",
+      "desc": "",
+      "name": "",
+      "other": "",
+      "title": "",
+      "submitText": "",
+      "exitMessage": {
+        "title": "",
+        "cancel": "",
+        "confirm": "",
+        "description": ""
+      },
+      "sender_name": "",
+      "organisation": "",
+      "transfer_type": "",
+      "declaration_to_name": "",
+      "remember_receiver_infos": ""
+    },
+    "wallet": "",
+    "address": "",
+    "example": "",
+    "foreign": "",
+    "domestic": "",
+    "receiver": {
+      "me": "",
+      "desc": "",
+      "name": "",
+      "other": "",
+      "title": "",
+      "submitText": "",
+      "exitMessage": {
+        "title": "",
+        "cancel": "",
+        "confirm": "",
+        "description": ""
+      },
+      "receiver_name": "",
+      "transfer_type": "",
+      "approve_transfer": "",
+      "enter_sender_infos": "",
+      "declaration_to_name": "",
+      "remember_receiver_infos": ""
+    },
+    "tax_id_no": "",
+    "address_info": "",
+    "platform_name": "",
+    "wallet_address": ""
+  },
+  "aA_title_pnL": "",
+  "depositMoney": {
+    "iban": "",
+    "main": {
+      "title": ""
+    },
+    "banks": {
+      "title": "",
+      "description": ""
+    },
+    "important": {
+      "fifth": "",
+      "first": "",
+      "sixth": "",
+      "third": "",
+      "title": "",
+      "eighth": "",
+      "fourth": "",
+      "second": "",
+      "seventh": ""
+    },
+    "receiverName": ""
+  },
+  "download_app": {
+    "title": "",
+    "button": "",
+    "subtitle": ""
+  },
+  "kyc_statuses": {
+    "banned": {
+      "mail": "",
+      "title": "",
+      "desc_1": "",
+      "desc_2": "",
+      "mobile": ""
+    }
+  },
+  "new-password": {
+    "title": "",
+    "button": ""
+  },
+  "oca_desc_btc": "",
+  "oca_desc_eth": "",
+  "oca_desc_new": "",
+  "sign_up_form": {
+    "name": "",
+    "surname": ""
+  },
+  "user_consent": {
+    "items": {
+      "SMS": "",
+      "CALL": "",
+      "EMAIL": ""
+    },
+    "menu_title": "",
+    "menu_description": "",
+    "page_description": "",
+    "sign_up_agreement": "",
+    "overlay_description": "",
+    "sign_up_description": ""
+  },
+  "buySellBanner": {
+    "title": "",
+    "linkText": "",
+    "description": ""
+  },
+  "mesh_transfer": {
+    "title": "",
+    "button": ""
+  },
+  "oca_desc_usdt": "",
+  "compId_desc_t1": "",
+  "compId_desc_t2": "",
+  "compId_desc_t3": "",
+  "currencyGroups": {
+    "all": "",
+    "box": "",
+    "fan": "",
+    "fiat": "",
+    "crypto": "",
+    "stable": ""
+  },
+  "label_donation": "",
+  "pKlineChartPro": {
+    "low": "",
+    "abcd": "",
+    "high": "",
+    "open": "",
+    "rect": "",
+    "time": "",
+    "close": "",
+    "xabcd": "",
+    "circle": "",
+    "volume": "",
+    "gann_box": "",
+    "ray_line": "",
+    "triangle": "",
+    "any_waves": "",
+    "five_waves": "",
+    "price_line": "",
+    "eight_waves": "",
+    "three_waves": "",
+    "weak_magnet": "",
+    "parallelogram": "",
+    "straight_line": "",
+    "strong_magnet": "",
+    "fibonacci_line": "",
+    "fibonacci_circle": "",
+    "fibonacci_spiral": "",
+    "vertical_segment": "",
+    "fibonacci_segment": "",
+    "vertical_ray_line": "",
+    "horizontal_segment": "",
+    "price_channel_line": "",
+    "fibonacci_extension": "",
+    "horizontal_ray_line": "",
+    "parallel_straight_line": "",
+    "vertical_straight_line": "",
+    "horizontal_straight_line": "",
+    "fibonacci_speed_resistance_fan": ""
+  },
+  "reward_bouquet": {
+    "kyc": {
+      "description": ""
+    },
+    "settings": {
+      "text": ""
+    },
+    "info_view": {
+      "button": {
+        "ok": "",
+        "account": ""
+      },
+      "content": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "onboarding": {
+      "title": "",
+      "button": {
+        "create": ""
+      },
+      "header": "",
+      "description": ""
+    },
+    "success_view": {
+      "kyc_verify": {
+        "button": {
+          "verify": ""
+        },
+        "content": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "not_kyc_verify": {
+        "button": {
+          "verify": ""
+        },
+        "content": {
+          "title": "",
+          "description": ""
+        }
+      }
+    },
+    "create_bouquet": {
+      "error": {
+        "phone_error": "",
+        "balance_error": "",
+        "choose_color_error": ""
+      },
+      "button": {
+        "send": ""
+      },
+      "header": "",
+      "content": {
+        "note": "",
+        "phone": "",
+        "balance": "",
+        "reciever": "",
+        "choose_color": "",
+        "choose_value": "",
+        "note_input_placeholder": "",
+        "choose_color_description": ""
+      },
+      "agreement": {
+        "agreement1": "",
+        "agreement2": "",
+        "agreement3": ""
+      }
+    },
+    "bouquet_history": {
+      "header": "",
+      "status": {
+        "expired": "",
+        "waiting": "",
+        "delivered": ""
+      },
+      "content": {
+        "info_title": "",
+        "history_empty": "",
+        "info_description": ""
+      },
+      "details": {
+        "share": "",
+        "status": "",
+        "sent_date": "",
+        "expire_date": "",
+        "sender_name": "",
+        "reciever_phone_number": ""
+      },
+      "segments": {
+        "send": "",
+        "received": ""
+      }
+    },
+    "user_send_bouquet": {
+      "button": {
+        "share": ""
+      },
+      "content": {
+        "info": "",
+        "title": "",
+        "reciever": ""
+      },
+      "share_message": ""
+    },
+    "nonuser_send_bouquet": {
+      "button": {
+        "share": ""
+      },
+      "content": {
+        "title": "",
+        "subtitle": "",
+        "processInfo1": "",
+        "processInfo2": ""
+      },
+      "share_message": ""
+    },
+    "receiver_bouquet_view": {
+      "content": {
+        "info": "",
+        "title": "",
+        "sender": "",
+        "view_details": "",
+        "multi_gift_title": ""
+      }
+    }
+  },
+  "aA_desc_pnLHelp": "",
+  "aA_desc_tVCHelp": "",
+  "assetConversion": {
+    "ok": "",
+    "close": "",
+    "title": "",
+    "cancel": "",
+    "closed": "",
+    "signIn": "",
+    "confirm": "",
+    "convert": "",
+    "tlValue": "",
+    "assetName": "",
+    "emptyTitle": "",
+    "totalPrice": "",
+    "totalValue": "",
+    "description": "",
+    "failedTitle": "",
+    "pickAnAsset": "",
+    "tryAgainLater": "",
+    "conversionToTl": "",
+    "convertedAmount": "",
+    "convertedAssets": "",
+    "availableBalance": "",
+    "conversionAmount": "",
+    "conversionDetail": "",
+    "emptyDescription": "",
+    "pickedAssetTotal": "",
+    "totalValueApprox": "",
+    "conversionConfirm": "",
+    "conversionWarning": "",
+    "failedDescription": "",
+    "transferredAmount": "",
+    "conversionDisabled": "",
+    "conversionCommission": "",
+    "conversionAmountApprox": "",
+    "emptyDescriptionSignIn": ""
+  },
+  "button_showMore": "",
+  "contact-support": {
+    "title": "",
+    "description": "",
+    "contact-button": ""
+  },
+  "forgot-password": {
+    "title": "",
+    "info-card": "",
+    "description": "",
+    "password_repeat_error": ""
+  },
+  "formElementName": {
+    "jop": "",
+    "memo": "",
+    "name": "",
+    "email": "",
+    "cities": "",
+    "mobile": "",
+    "sender": "",
+    "address": "",
+    "surname": "",
+    "birthday": "",
+    "district": "",
+    "password": "",
+    "receiver": "",
+    "birthplace": "",
+    "fatherName": "",
+    "motherName": "",
+    "senderName": "",
+    "addressName": "",
+    "fullAddress": "",
+    "nationality": "",
+    "identityCard": "",
+    "new-password": "",
+    "platformName": "",
+    "receiverName": "",
+    "networkToSend": "",
+    "passwordAgain": "",
+    "referenceCode": "",
+    "senderCompany": "",
+    "senderSurName": "",
+    "identityNumber": "",
+    "nameAndSurname": "",
+    "reTypePassword": "",
+    "senderFullName": "",
+    "currentPassword": "",
+    "receiverCompany": "",
+    "receiverSurName": "",
+    "identityCardDesc": "",
+    "receiverFullName": "",
+    "descriptionOpsion": "",
+    "repeat-new-password": "",
+    "countryOfCitizenship": "",
+    "identificationNumber": "",
+    "emailVerificationCode": "",
+    "foreignIdentityNumber": "",
+    "phoneVerificationCode": "",
+    "withdrawWalletAddress": "",
+    "senderTransferPlatform": "",
+    "chooseInvestmentNetwork": "",
+    "identificationNumberDesc": "",
+    "identificationSerialCode": "",
+    "receiverTransferPlatform": "",
+    "identificationSerialCodeDesc": ""
+  },
+  "label_lastNDays": "",
+  "label_yesterday": "",
+  "pChartComponent": {
+    "chartType": {
+      "line": "",
+      "depth": "",
+      "candle": ""
+    },
+    "timeInterval": {
+      "1D": "",
+      "1M": "",
+      "3M": "",
+      "7D": "",
+      "12M": ""
+    }
+  },
+  "system_messages": {
+    "ok": "",
+    "all": "",
+    "edit": "",
+    "reef": {
+      "content": ""
+    },
+    "close": "",
+    "later": "",
+    "cancel": "",
+    "go_home": "",
+    "sign_in": "",
+    "campaign": {
+      "desc": {
+        "wrongCampaignCode": ""
+      },
+      "title": {
+        "wrongCampaignCode": ""
+      }
+    },
+    "do_later": "",
+    "referral": {
+      "desc": {
+        "wrongReferralCode": ""
+      },
+      "title": {
+        "wrongReferralCode": ""
+      }
+    },
+    "alarm_set": "",
+    "discounts": {
+      "desc": {
+        "thankYou": "",
+        "tryAgain": "",
+        "insufficientMonthlyVolume": ""
+      },
+      "title": {
+        "outOfCode": "",
+        "code_error": "",
+        "codeNotFound": "",
+        "discountOver": "",
+        "eventNotFound": "",
+        "discountNotFound": "",
+        "insufficientMonthlyVolume": ""
+      }
+    },
+    "go_wallet": "",
+    "try_again": "",
+    "go_markets": "",
+    "go_support": "",
+    "update_now": "",
+    "valid_iban": "",
+    "auctionOver": {
+      "desc": "",
+      "title": ""
+    },
+    "go_donation": "",
+    "qr_transfer": {
+      "send": {
+        "emptyAmount": ""
+      },
+      "receive": {
+        "emptyAmount": ""
+      }
+    },
+    "complete_now": "",
+    "define_email": "",
+    "go_info_page": "",
+    "invalid_iban": "",
+    "presale_fail": "",
+    "unauthorized": "",
+    "verify_email": "",
+    "go_tl_deposit": "",
+    "invalid_tcnum": "",
+    "mobile_unique": "",
+    "set_new_alarm": "",
+    "alarm_canceled": "",
+    "bank_suspended": "",
+    "custom_message": "",
+    "favorite_added": "",
+    "feedback_saved": "",
+    "order_canceled": "",
+    "password_reset": "",
+    "update_the_app": "",
+    "wrong_password": "",
+    "api_key_created": "",
+    "api_key_deleted": "",
+    "api_key_updated": "",
+    "code_is_invalid": "",
+    "email_duplicate": "",
+    "fraud_bank_lock": "",
+    "invalid_network": "",
+    "order_not_found": "",
+    "orders_canceled": "",
+    "presale_is_done": "",
+    "user_unregister": "",
+    "verify_identity": "",
+    "address_is_valid": "",
+    "create_new_order": "",
+    "favorite_removed": "",
+    "invalid_sms_code": "",
+    "market_not_found": "",
+    "market_suspended": "",
+    "password_changed": "",
+    "presale_sold_out": "",
+    "user_deactivated": "",
+    "address_not_found": "",
+    "define_email_body": "",
+    "invalid_iban_body": "",
+    "presale_fail_body": "",
+    "unauthorized_body": "",
+    "unidentified_user": "",
+    "verify_email_body": "",
+    "wrong_credentials": "",
+    "auctionMessageFail": {
+      "desc": "",
+      "title": ""
+    },
+    "buy_order_received": "",
+    "conversion_success": "",
+    "define_email_title": "",
+    "email_not_verified": "",
+    "feedback_duplicate": {
+      "body": "",
+      "title": ""
+    },
+    "invalid_email_code": "",
+    "mobile_unique_body": "",
+    "not_enough_balance": {
+      "desc": "",
+      "title": ""
+    },
+    "unidentified_email": "",
+    "verify_email_title": "",
+    "all_alarms_canceled": "",
+    "bank_address_change": "",
+    "bank_not_found_body": "",
+    "bank_suspended_body": "",
+    "code_campaign_error": {
+      "body": "",
+      "title": ""
+    },
+    "email_not_real_body": "",
+    "invalid_network_tag": "",
+    "order_received_hint": "",
+    "password_reset_body": "",
+    "sell_order_received": "",
+    "update_the_app_body": "",
+    "update_the_app_hint": "",
+    "wrong_password_body": "",
+    "address_is_not_valid": "",
+    "conversion_suspended": "",
+    "email_change_success": "",
+    "email_duplicate_body": "",
+    "fraud_bank_lock_body": "",
+    "global_user_register": "",
+    "google_2fa_activated": "",
+    "insufficient_balance": "",
+    "invalid_network_body": "",
+    "market_not_available": "",
+    "order_not_found_body": "",
+    "orders_list_canceled": "",
+    "presale_is_done_body": "",
+    "something_went_wrong": "",
+    "user_session_deleted": "",
+    "user_unregister_body": "",
+    "verify_identity_body": "",
+    "email_change_recently": "",
+    "exceeded_alarm_limits": "",
+    "identity_verification": "",
+    "ip_address_is_invalid": "",
+    "maintenance_mode_body": "",
+    "market_not_found_body": "",
+    "password_changed_body": "",
+    "pizza_day_out_of_code": {
+      "title": "",
+      "description": ""
+    },
+    "pizza_day_out_of_date": "",
+    "presale_order_success": "",
+    "presale_sold_out_body": "",
+    "too_many_request_body": "",
+    "transaction_not_found": "",
+    "user_deactivated_body": "",
+    "verify_identity_title": "",
+    "bank_account_suspended": "",
+    "deactivated_user_login": "",
+    "exceeded_max_mfa_fails": "",
+    "google_2fa_deactivated": "",
+    "maintenance_mode_title": "",
+    "price_is_out_of_limits": "",
+    "total_is_out_of_limits": "",
+    "unavailable_order_type": "",
+    "unidentified_user_body": "",
+    "withdraw_address_saved": "",
+    "wrong_credentials_body": "",
+    "amount_is_out_of_limits": "",
+    "code_campaign_not_found": {
+      "body": "",
+      "title": ""
+    },
+    "conversion_success_body": "",
+    "conversion_unsuccessful": "",
+    "currency_deposit_closed": "",
+    "email_is_not_reasonable": "",
+    "password_reset_recently": "",
+    "presale_not_yet_started": "",
+    "price_is_not_reasonable": "",
+    "too_many_request_failed": "",
+    "transaction_failed_body": "",
+    "unidentified_email_body": "",
+    "unregistered_user_login": "",
+    "withdraw_is_not_allowed": "",
+    "withdraw_request_failed": "",
+    "conversion_not_available": "",
+    "currency_withdraw_closed": "",
+    "date_time_range_too_long": "",
+    "deposit_address_assigned": "",
+    "invalid_network_tag_body": "",
+    "missing_field_order_body": "",
+    "passkey_credential_saved": "",
+    "transaction_failed_title": "",
+    "user_verification_failed": "",
+    "withdraw_address_deleted": "",
+    "withdraw_already_started": "",
+    "address_is_not_valid_body": "",
+    "app_tracking_transparency": {
+      "desc": "",
+      "title": ""
+    },
+    "conversion_suspended_body": "",
+    "donation_request_received": "",
+    "email_change_success_body": "",
+    "email_verification_failed": "",
+    "fraud_bank_buy_order_lock": "",
+    "global_user_register_body": "",
+    "iban_address_is_not_valid": "",
+    "insufficient_balance_body": "",
+    "market_not_available_body": "",
+    "missing_field_order_title": "",
+    "something_went_wrong_body": "",
+    "too_many_attempts_for_sms": "",
+    "user_verification_success": "",
+    "withdraw_request_canceled": "",
+    "withdraw_request_received": "",
+    "bank_address_belongs_to_us": "",
+    "buy_order_price_is_too_low": "",
+    "email_change_recently_body": "",
+    "email_verification_success": "",
+    "exceeded_alarm_limits_body": "",
+    "exceeded_user_alarm_limits": "",
+    "financial_operation_failed": "",
+    "go_crypto_unlock_info_page": "",
+    "invalid_email_and_sms_code": "",
+    "notification_consent_given": "",
+    "passkey_credential_removed": "",
+    "passkey_credential_renamed": "",
+    "pizza_day_out_of_date_body": "",
+    "register_campaign_withdraw": {
+      "body": "",
+      "title": ""
+    },
+    "reward_bouquet_failed_body": {
+      "desc": "",
+      "title": ""
+    },
+    "transaction_not_found_body": "",
+    "buy_order_price_is_too_high": "",
+    "condition_is_not_reasonable": "",
+    "deactivated_user_login_body": "",
+    "exceeded_max_mfa_fails_body": "",
+    "missing_field_withdraw_body": "",
+    "pizza_day_coupon_code_error": "",
+    "presale_user_limit_exceeded": "",
+    "price_is_out_of_limits_body": "",
+    "sell_order_price_is_too_low": "",
+    "something_went_wrong_market": "",
+    "too_many_attempts_for_email": "",
+    "total_is_out_of_limits_body": "",
+    "amount_is_out_of_limits_body": "",
+    "deposit_address_not_assigned": "",
+    "exceeded_saved_address_limit": "",
+    "lock_key_is_already_acquired": "",
+    "missing_field_withdraw_title": "",
+    "notification_consent_removed": "",
+    "passkey_credential_not_found": "",
+    "password_reset_recently_body": "",
+    "presale_insufficient_balance": "",
+    "presale_not_yet_started_body": "",
+    "sell_order_price_is_too_high": "",
+    "unregistered_user_login_body": "",
+    "withdraw_request_failed_body": "",
+    "already_has_a_deposit_address": "",
+    "code_campaign_event_not_found": {
+      "body": "",
+      "title": ""
+    },
+    "conversion_not_available_body": "",
+    "date_time_range_too_long_body": "",
+    "invalid_code_or_expired_token": "",
+    "passkey_authentication_failed": "",
+    "user_verification_failed_body": "",
+    "withdraw_already_started_body": "",
+    "buy_order_condition_is_too_low": "",
+    "email_verification_failed_body": "",
+    "fraud_bank_buy_order_lock_body": "",
+    "iban_address_is_not_valid_body": "",
+    "too_many_attempts_for_sms_body": "",
+    "total_is_out_of_max_limit_body": "",
+    "total_is_out_of_min_limit_body": "",
+    "withdraw_address_already_saved": "",
+    "withdraw_address_in_black_list": "",
+    "bank_address_belongs_to_us_body": "",
+    "buy_order_condition_is_too_high": "",
+    "code_campaign_event_out_of_date": {
+      "body": "",
+      "title": ""
+    },
+    "email_not_real_with_params_body": "",
+    "email_verification_success_body": "",
+    "exceeded_user_alarm_limits_body": "",
+    "financial_operation_failed_body": "",
+    "presale_below_is_over_the_limit": "",
+    "sell_order_condition_is_too_low": "",
+    "trigger_price_is_not_reasonable": "",
+    "code_campaign_event_no_more_code": {
+      "body": "",
+      "title": ""
+    },
+    "pizza_day_coupon_code_error_body": "",
+    "presale_amount_is_over_the_limit": "",
+    "presale_user_limit_exceeded_body": "",
+    "sell_order_condition_is_too_high": "",
+    "too_many_attempts_for_email_body": "",
+    "user_verification_update_success": "",
+    "deposit_address_not_assigned_body": "",
+    "deposit_disabled_for_this_network": "",
+    "exceeded_saved_address_limit_body": "",
+    "fiat_deposit_after_promotion_body": "",
+    "fraud_bank_currency_withdraw_lock": "",
+    "presale_insufficient_balance_body": "",
+    "too_many_attempts_for_credentials": "",
+    "deposit_disabled_for_this_currency": "",
+    "fiat_deposit_after_promotion_title": "",
+    "invalid_code_or_expired_token_body": "",
+    "maintenance_mode_body_scenario_two": "",
+    "sign_in_approve_email_confirmation": "",
+    "withdraw_disabled_for_this_network": "",
+    "halving_promotion_verification_body": "",
+    "maintenance_mode_body_scenario_four": "",
+    "successful_conversion_of_currencies": "",
+    "withdraw_address_already_saved_body": "",
+    "withdraw_address_in_black_list_body": "",
+    "withdraw_approve_email_confirmation": "",
+    "withdraw_disabled_due_to_black_list": "",
+    "withdraw_disabled_for_this_currency": "",
+    "wrong_credentials_mobile_email_body": "",
+    "halving_promotion_verification_title": "",
+    "maintenance_mode_body_scenario_three": "",
+    "presale_amount_remaining_user_amount": "",
+    "presale_below_is_over_the_limit_body": "",
+    "quick_transfer_invalid_self_transfer": "",
+    "trigger_price_is_not_reasonable_body": "",
+    "presale_amount_is_over_the_limit_body": "",
+    "unsuccessful_conversion_of_currencies": "",
+    "deposit_disabled_for_this_network_body": "",
+    "fraud_bank_currency_withdraw_lock_body": "",
+    "too_many_attempts_for_credentials_body": "",
+    "buy_order_price_vs_condition_is_too_low": "",
+    "code_campaign_event_join_code_not_found": {
+      "body": "",
+      "title": ""
+    },
+    "deposit_disabled_for_this_currency_body": "",
+    "price_is_not_reasonable_for_conditional": "",
+    "withdraw_disabled_for_this_network_body": "",
+    "buy_order_price_vs_condition_is_too_high": "",
+    "fraud_bank_crypto_currency_withdraw_lock": "",
+    "sell_order_price_vs_condition_is_too_low": "",
+    "tooltip_network_suspended_unknown_reason": "",
+    "withdraw_approve_email_confirmation_hint": "",
+    "withdraw_disabled_due_to_black_list_body": "",
+    "withdraw_disabled_for_this_currency_body": "",
+    "code_campaign_insufficient_monthly_volume": {
+      "body": "",
+      "title": ""
+    },
+    "first_transfer_must_be_bank_transfer_body": "",
+    "passkey_max_number_of_credentials_reached": "",
+    "presale_amount_remaining_user_amount_body": "",
+    "quick_transfer_invalid_self_transfer_body": "",
+    "sell_order_price_vs_condition_is_too_high": "",
+    "currency_withdraw_unknown_reason_suspended": "",
+    "first_transfer_must_be_bank_transfer_title": "",
+    "fraud_bank_crypto_currency_withdraw_lock_body": "",
+    "sign_in_approve_email_confirmation_description": "",
+    "withdraw_approve_email_confirmation_description": "",
+    "proceeds_from_successful_conversion_of_currencies": "",
+    "proceeds_from_unsuccessful_conversion_of_currencies": "",
+    "tooltip_currency_deposit_suspended_for_delist_process": "",
+    "withdrawal_amount_is_above_the_once_withdrawal_amount": "",
+    "withdrawal_amount_is_above_the_daily_withdrawal_amount": "",
+    "tooltip_currency_deposit_suspended_for_all_banks_problem": "",
+    "withdrawal_amount_is_above_the_monthly_withdrawal_amount": "",
+    "withdrawal_amount_is_below_the_minimum_withdrawal_amount": "",
+    "tooltip_currency_withdraw_suspended_for_all_banks_problem": "",
+    "tooltip_currency_deposit_suspended_for_all_network_problem": "",
+    "withdrawal_amount_is_above_the_once_withdrawal_amount_body": "",
+    "withdrawal_amount_is_above_the_daily_withdrawal_amount_body": "",
+    "quick_transfer_amount_is_below_the_minimum_withdrawal_amount": "",
+    "tooltip_currency_withdraw_suspended_for_all_networks_problem": "",
+    "withdrawal_amount_is_above_the_monthly_withdrawal_amount_body": "",
+    "withdrawal_amount_is_below_the_minimum_withdrawal_amount_body": "",
+    "quick_transfer_amount_is_below_the_minimum_withdrawal_amount_body": ""
+  },
+  "bottomNavigation": {
+    "easy": "",
+    "wallet": "",
+    "account": "",
+    "markets": "",
+    "overview": "",
+    "notifications": ""
+  },
+  "financialHistory": {
+    "all": "",
+    "buy": "",
+    "iban": "",
+    "role": "",
+    "sell": "",
+    "txID": "",
+    "asset": "",
+    "limit": "",
+    "price": "",
+    "title": "",
+    "total": "",
+    "active": "",
+    "amount": "",
+    "cancel": "",
+    "export": {
+      "Pdf": "",
+      "Excel": "",
+      "showName": "",
+      "showEmail": "",
+      "documentType": "",
+      "personalInfo": "",
+      "processDocument": "",
+      "limitDownloadCount": ""
+    },
+    "failed": "",
+    "filter": {
+      "apply": "",
+      "clear": "",
+      "today": "",
+      "export": "",
+      "lastWeek": "",
+      "lastYear": "",
+      "lastMonth": "",
+      "noResults": "",
+      "last3Month": "",
+      "last6Month": ""
+    },
+    "market": "",
+    "orders": "",
+    "parity": "",
+    "status": "",
+    "deposit": "",
+    "matched": "",
+    "pending": "",
+    "process": "",
+    "waiting": "",
+    "rejected": "",
+    "withdraw": "",
+    "allOrders": "",
+    "cancelled": "",
+    "completed": "",
+    "condition": "",
+    "noResults": "",
+    "occurring": "",
+    "orderType": "",
+    "processed": "",
+    "commission": "",
+    "openOrders": "",
+    "processDoc": "",
+    "targetBank": "",
+    "OrderStatus": {
+      "New": "",
+      "Expired": "",
+      "Rejected": "",
+      "Cancelled": "",
+      "Completed": "",
+      "partiallyFilled": ""
+    },
+    "accountName": "",
+    "processTime": "",
+    "processType": "",
+    "averagePrice": "",
+    "orderHistory": "",
+    "targetWallet": "",
+    "tradeHistory": "",
+    "processStatus": "",
+    "TransferStatus": {
+      "Failed": "",
+      "Queued": "",
+      "Cancelled": "",
+      "Completed": "",
+      "Processing": "",
+      "WaitingApproval": ""
+    },
+    "orderCondition": "",
+    "tlAssetHistory": "",
+    "emptyOpenOrders": "",
+    "emptyOrderHistory": "",
+    "cryptoAccountHistory": ""
+  },
+  "label_shownItems": "",
+  "link_goToDetails": "",
+  "userVerification": {
+    "title": "",
+    "qrCode": "",
+    "downLoad": "",
+    "buttonText": "",
+    "followStep": "",
+    "startTrade": "",
+    "description": "",
+    "accountVerified": ""
+  },
+  "verificationPage": {
+    "title": "",
+    "description": "",
+    "searchPlaceholder": "",
+    "identityVerifyButton": ""
+  },
+  "aA_desc_dayStarts": "1",
+  "financial_history": {
+    "filters": {
+      "labels": {
+        "week": "",
+        "error": "",
+        "month": "",
+        "today": "",
+        "failed": "",
+        "search": "",
+        "status": "",
+        "pending": "",
+        "canceled": "",
+        "download": "",
+        "completed": "",
+        "takeLimit": "",
+        "asset_type": "",
+        "date_filter": "",
+        "date_picker": "",
+        "three_months": "",
+        "clear_filters": "",
+        "range_picker_end": "",
+        "range_picker_info": "",
+        "mobile_date_picker": "",
+        "range_picker_start": ""
+      },
+      "download_drawer": {
+        "info": "",
+        "basic": "",
+        "detailed": "",
+        "doc_type": "",
+        "basic_desc": "",
+        "doc_detail": "",
+        "show_email": "",
+        "PDF_download": "",
+        "detailed_desc": "",
+        "export_button": "",
+        "download_title": "",
+        "excel_download": "",
+        "show_name_surname": "",
+        "content_attributes": ""
+      }
+    },
+    "segments": {
+      "qr": "",
+      "prize": "",
+      "stake": "",
+      "convert": "",
+      "buy_sell": "",
+      "donation": "",
+      "fan_apps": "",
+      "deposit_withdraw": ""
+    }
+  },
+  "label_missingInfo": "",
+  "mobileAppDownload": {
+    "title": "",
+    "action": "",
+    "subtitle": ""
+  },
+  "nav_smallBalances": "",
+  "oca_title_newUser": "",
+  "aA_desc_usdtValues": "",
+  "button_buyAssetNow": "",
+  "button_completeNow": "",
+  "label_currencyName": "",
+  "label_existingInfo": "",
+  "pendingDeclaretion": {
+    "title": "",
+    "buttonText": "",
+    "description": ""
+  },
+  "system_validations": {
+    "gt": "",
+    "lt": "",
+    "max": "",
+    "min": "",
+    "iban": "",
+    "array": "",
+    "email": "",
+    "regex": "",
+    "digits": "",
+    "exists": "",
+    "mobile": "",
+    "string": "",
+    "integer": "",
+    "numeric": "",
+    "checkbox": "",
+    "positive": "",
+    "required": "",
+    "age_limit": "",
+    "id_digits": "",
+    "id_unique": "",
+    "name_regex": "",
+    "date_format": "",
+    "email_unique": "",
+    "password_regex": "",
+    "last_name_regex": "",
+    "first_name_regex": "",
+    "allowed_ips_regex": {
+      "desc": "",
+      "title": ""
+    },
+    "father_name_regex": "",
+    "mother_name_regex": "",
+    "new_password_different": ""
+  },
+  "tlDepositComponent": {
+    "depositTlInfo": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": ""
+    }
+  },
+  "transactionHistory": {
+    "date": "",
+    "asset": {
+      "title": ""
+    },
+    "dates": {
+      "title": "",
+      "endDate": "",
+      "intervals": {
+        "all": "",
+        "day": "",
+        "week": "",
+        "month": "",
+        "custom": "",
+        "3months": ""
+      },
+      "startDate": "",
+      "intervalError": "",
+      "intervalError2": ""
+    },
+    "limit": "",
+    "title": "",
+    "avgPrice": "",
+    "download": {
+      "pdf": "",
+      "info": "",
+      "xlsx": "",
+      "email": "",
+      "title": "",
+      "export": "",
+      "docType": "",
+      "setDate": "",
+      "fullname": "",
+      "openOrder": "",
+      "processType": "",
+      "intervalInfo": "",
+      "orderHistory": "",
+      "personalInfo": "",
+      "tradeHistory": "",
+      "transferHistoryTL": "",
+      "transferHistoryCrypto": ""
+    },
+    "notFound": "",
+    "processes": {
+      "all": "",
+      "buy": "",
+      "sell": "",
+      "title": "",
+      "deposit": "",
+      "withdraw": "",
+      "titleEdit": "",
+      "conversion": ""
+    },
+    "totalPrice": "",
+    "resetFilter": "",
+    "searchLabel": "",
+    "dateFilterInfo": "",
+    "searchNotFound": "",
+    "searchNotFoundInfo": "",
+    "pendingTransactions": "",
+    "completedTransactions": ""
+  },
+  "button_completeInfo": "",
+  "link_assetsAnalysis": "",
+  "nav_assestsAnalysis": "",
+  "oca_desc_topMoverUp": "",
+  "tlWithdrawComponent": {
+    "WithdrawTlInfo": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": ""
+    }
+  },
+  "appConnectPermission": {
+    "mesh": {
+      "body": {
+        "fifthBullet": "",
+        "firstBullet": "",
+        "forthBullet": "",
+        "sixthBullet": "",
+        "thirdBullet": "",
+        "secondBullet": "",
+        "seventhBullet": ""
+      },
+      "title": "",
+      "description": ""
+    }
+  },
+  "button_completeLater": "",
+  "compId_desc_t1Header": "",
+  "compId_desc_t2Header": "",
+  "compId_desc_t3Header": "",
+  "helper_completeTrade": "",
+  "oca_title_newUserWeb": "",
+  "saveAddressComponent": {
+    "title": "",
+    "network": "",
+    "cryptoAsset": "",
+    "description": "",
+    "walletAddress": ""
+  },
+  "oca_desc_topMoverDown": "",
+  "label_organizationName": "",
+  "oca_desc_highestVolume": "",
+  "oca_title_existingUser": "",
+  "onb_desc_smallBalances": "",
+  "compId_desc_compIdBegun": "",
+  "input_repeatNewPassword": "",
+  "onb_desc_assetsAnalysis": "",
+  "onb_title_smallBalances": "",
+  "button_showOrganizations": "",
+  "mobile_banner_alarm_desc": "",
+  "mobile_banner_trade_desc": "",
+  "onb_title_assetsAnalysis": "",
+  "securityVerificationPage": {
+    "identityVerification": "",
+    "completeSecurityVerification": ""
+  },
+  "aA_title_totalValueChange": "",
+  "compId_desc_tradingClosed": "",
+  "compId_title_completeInfo": "",
+  "mobile_banner_alarm_title": "",
+  "mobile_banner_market_desc": "",
+  "mobile_banner_trade_title": "",
+  "compId_desc_completeUnlock": "",
+  "compId_desc_withdrawClosed": "",
+  "compId_title_whatIsBlocked": "",
+  "mobile_banner_alarm_button": "",
+  "mobile_banner_history_desc": "",
+  "mobile_banner_market_title": "",
+  "mobile_banner_signup_title": "",
+  "mobile_banner_trade_button": "",
+  "mobile_banner_bjktoken_desc": "",
+  "mobile_banner_donation_desc": "",
+  "mobile_banner_history_title": "",
+  "mobile_banner_market_button": "",
+  "mobile_banner_signup_button": "",
+  "compId_desc_tradingWillClose": "",
+  "mobile_banner_bjktoken_title": "",
+  "mobile_banner_donation_title": "",
+  "mobile_banner_history_button": "",
+  "showcase_desc_assetsAnalysis": "",
+  "compId_desc_withdrawWillClose": "",
+  "mobile_banner_bjktoken_button": "",
+  "mobile_banner_conversion_desc": "",
+  "mobile_banner_donation_button": "",
+  "showcase_title_assetsAnalysis": "",
+  "mobile_banner_conversion_title": "",
+  "mobile_banner_conversion_button": ""
 }
